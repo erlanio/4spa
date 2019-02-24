@@ -1,14 +1,14 @@
 webpackJsonp([3],{
 
-/***/ 282:
+/***/ 933:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProcurarmedicoPageModule", function() { return ProcurarmedicoPageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__procurarmedico__ = __webpack_require__(101);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TurmasDetailsPageModule", function() { return TurmasDetailsPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__turmas_details__ = __webpack_require__(55);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ProcurarmedicoPageModule = /** @class */ (function () {
-    function ProcurarmedicoPageModule() {
+var TurmasDetailsPageModule = /** @class */ (function () {
+    function TurmasDetailsPageModule() {
     }
-    ProcurarmedicoPageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+    TurmasDetailsPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__procurarmedico__["a" /* ProcurarmedicoPage */],
+                __WEBPACK_IMPORTED_MODULE_2__turmas_details__["a" /* TurmasDetailsPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__procurarmedico__["a" /* ProcurarmedicoPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__turmas_details__["a" /* TurmasDetailsPage */]),
             ],
         })
-    ], ProcurarmedicoPageModule);
-    return ProcurarmedicoPageModule;
+    ], TurmasDetailsPageModule);
+    return TurmasDetailsPageModule;
 }());
 
-//# sourceMappingURL=procurarmedico.module.js.map
+//# sourceMappingURL=turmas-details.module.js.map
 
 /***/ })
 

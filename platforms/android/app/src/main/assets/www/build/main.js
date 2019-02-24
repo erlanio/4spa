@@ -8,7 +8,7 @@ webpackJsonp([26],{
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__escola_inicio_escola_inicio__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__about_about__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__about_about__ = __webpack_require__(174);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__turmas_turmas__ = __webpack_require__(106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_in_app_browser__ = __webpack_require__(99);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_storage__ = __webpack_require__(152);
@@ -187,7 +187,7 @@ var TurmasPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__inicio_inicio__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__cadastro_cadastro__ = __webpack_require__(191);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__cadastro_cadastro__ = __webpack_require__(192);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__turmas_turmas__ = __webpack_require__(106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_http__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs__ = __webpack_require__(17);
@@ -300,6 +300,51 @@ var HomePage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the AboutPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var AboutPage = /** @class */ (function () {
+    function AboutPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    AboutPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad AboutPage');
+    };
+    AboutPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-about',template:/*ion-inline-start:"C:\apps\4spa\src\pages\about\about.html"*/'<!--\nGenerated template for the AboutPage page.\n\nSee http://ionicframework.com/docs/components/#navigation for more info on\nIonic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Sobre o 4SPA</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-item>\n    <img src="/assets/imgs/logo.jpg">\n    <h3>4SPA - School Physical Assessment</h3>\n  </ion-item>\n\n  <ion-card>\n\n\n    <ion-card-content class="sobre">\n      Este aplicativo contém orientações destinadas a vocês, famílias e cuidadores de crianças. <br>\n      O objetivo é servir de apoio no entendimento do processo saúde-doença da criança no ambiente domiciliar, assim como auxiliar no manejo correto dos problemas clínicos mais comuns nessa faixa etária e subsidiar a tomada de decisões pelos responsáveis.\n    <br>  As orientações são no intuito de racionalizar a utilização de medidas não-farmacológicas com evidências clínicas comprovadas na literatura científica e os cuidados com as medicações que mesmo isentas de prescrições não são isentas de riscos.\n    <br>  É importante que os responsáveis utilizem esse material para reconhecer sinais de alerta e procurar atendimento médico como também tranquilizar-se frente a problemas de saúde sem sinais de localização.\n    <br>  É igualmente importante, para o alcance do restabelecimento da saúde da criança, o fortalecimento das competências familiares para a continuidade do tratamento e do cuidado dela nos espaços de convivência familiar e comunitário.\n    <br>  Então, vamos conhecer o que fazer frente as principais enfermidades da criança?\n\n    </ion-card-content>\n\n  </ion-card>\n</ion-content>\n'/*ion-inline-end:"C:\apps\4spa\src\pages\about\about.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
+    ], AboutPage);
+    return AboutPage;
+}());
+
+//# sourceMappingURL=about.js.map
+
+/***/ }),
+
+/***/ 175:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddAlunoPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
@@ -394,7 +439,7 @@ var AddAlunoPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 175:
+/***/ 176:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -517,7 +562,7 @@ var EditAlunoPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 177:
+/***/ 178:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -782,7 +827,7 @@ var AvaliacoesPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 178:
+/***/ 179:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1078,7 +1123,269 @@ var EditAvaliacaoPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 179:
+/***/ 180:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddEscolaPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__escola_inicio_escola_inicio__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+/**
+* Generated class for the AddEscolaPage page.
+*
+* See https://ionicframework.com/docs/components/#navigation for more info on
+* Ionic pages and navigation.
+*/
+var AddEscolaPage = /** @class */ (function () {
+    function AddEscolaPage(navCtrl, navParams, HttpCtrl, alertCtrl) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.HttpCtrl = HttpCtrl;
+        this.alertCtrl = alertCtrl;
+        this.API_URL = "http://cev.urca.br/treinamento/Api/";
+        this.id_usuario = this.navParams.get('id_usuario');
+        this.HttpCtrl.get(this.API_URL + 'tipoEscolas')
+            .map(function (res) { return res.json(); })
+            .subscribe(function (data) {
+            _this.tipoEscolas = data;
+        });
+        this.HttpCtrl.get(this.API_URL + 'estados')
+            .map(function (res) { return res.json(); })
+            .subscribe(function (data) {
+            _this.estados = data;
+        });
+    }
+    AddEscolaPage.prototype.cidadeBuscar = function () {
+        var _this = this;
+        this.HttpCtrl.get(this.API_URL + 'cidades?id_estado=' + this.estado)
+            .map(function (res) { return res.json(); })
+            .subscribe(function (data) {
+            console.log(data);
+            console.log(data);
+            _this.cidades = data;
+        });
+    };
+    AddEscolaPage.prototype.salvar = function () {
+        var _this = this;
+        if (this.estado == null
+            || this.cidade == null
+            || this.tipo == null
+            || this.nomeEscola == null) {
+            var alerta = this.alertCtrl.create({
+                title: '<p>Ops!</p>',
+                subTitle: '<p>Preencha todos os dados para continuar!</p>',
+                buttons: ['OK']
+            });
+            alerta.present();
+        }
+        else {
+            this.HttpCtrl.get(this.API_URL + 'salvarEscola?estado=' + this.estado
+                + '&cidade=' + this.cidade
+                + '&tipo=' + this.tipo
+                + '&nomeEscola=' + this.nomeEscola
+                + '&bairro=' + this.bairro
+                + '&numero=' + this.numero
+                + '&email=' + this.email
+                + '&rua=' + this.rua
+                + '&id_usuario=' + this.id_usuario)
+                .map(function (res) { return res.json(); })
+                .subscribe(function (data) {
+                if (data != true) {
+                    var alerta = _this.alertCtrl.create({
+                        title: '<p>Atenção!</p>',
+                        subTitle: '<p>Ocorreu um erro ao tentar salvar, tente novamente!</p>',
+                        buttons: ['OK']
+                    });
+                }
+                else {
+                    _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__escola_inicio_escola_inicio__["a" /* EscolaInicioPage */], {
+                        'id_usuario': _this.id_usuario,
+                    });
+                }
+            });
+        }
+    };
+    AddEscolaPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad AddEscolaPage');
+    };
+    AddEscolaPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-add-escola',template:/*ion-inline-start:"C:\apps\4spa\src\pages\add-escola\add-escola.html"*/'<!--\nGenerated template for the AddEscolaPage page.\n\nSee http://ionicframework.com/docs/components/#navigation for more info on\nIonic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Adicionar Nova Escola</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n  <ion-list>\n    <ion-item>\n      <ion-label color="primary" floating>Nome da Escola</ion-label>\n      <ion-input [(ngModel)]="nomeEscola"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-label color="primary" floating>Telefone</ion-label>\n      <ion-input [(ngModel)]="telefone" type="tel"  maxlength="11"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-label>Tipo de Escola</ion-label>\n      <ion-select [(ngModel)]="tipo">\n        <ion-option *ngFor="let tipoEscola of tipoEscolas" value="{{tipoEscola.id_tipo_escola}}">{{tipoEscola.descricao}}</ion-option>\n      </ion-select>\n    </ion-item>\n\n    <ion-item>\n      <ion-label>UF</ion-label>\n      <ion-select [(ngModel)]="estado" (ionChange)="cidadeBuscar();">\n        <ion-option *ngFor="let estado of estados" value="{{estado.id}}">{{estado.sigla}}</ion-option>\n      </ion-select>\n    </ion-item>\n\n    <ion-item>\n      <ion-label>Cidade</ion-label>\n      <ion-select [(ngModel)]="cidade">\n        <ion-option *ngFor="let cidade of cidades" value="{{cidade.id}}">{{cidade.nome}}</ion-option>\n      </ion-select>\n    </ion-item>\n\n\n    <ion-item>\n      <ion-label color="primary" floating>Bairro</ion-label>\n      <ion-input [(ngModel)]="bairro" type="text"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-label color="primary" floating>Rua</ion-label>\n      <ion-input [(ngModel)]="rua" type="text"></ion-input>\n    </ion-item>\n\n\n    <ion-item>\n      <ion-label color="primary" floating>N°</ion-label>\n      <ion-input [(ngModel)]="numero" type="tel"  maxlength="11"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-label color="primary" floating>Email</ion-label>\n      <ion-input [(ngModel)]="email" type="texto"></ion-input>\n    </ion-item>\n\n    <br>\n    <button ion-button full (click)="salvar();">Salvar Escola</button>\n\n\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"C:\apps\4spa\src\pages\add-escola\add-escola.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Http */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
+    ], AddEscolaPage);
+    return AddEscolaPage;
+}());
+
+//# sourceMappingURL=add-escola.js.map
+
+/***/ }),
+
+/***/ 181:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EditEscolaPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__escola_inicio_escola_inicio__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+/**
+* Generated class for the EditEscolaPage page.
+*
+* See https://ionicframework.com/docs/components/#navigation for more info on
+* Ionic pages and navigation.
+*/
+var EditEscolaPage = /** @class */ (function () {
+    function EditEscolaPage(navCtrl, navParams, HttpCtrl, alertCtrl) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.HttpCtrl = HttpCtrl;
+        this.alertCtrl = alertCtrl;
+        this.API_URL = "http://cev.urca.br/treinamento/Api/";
+        //RECEBE O PARÂMETRO DA OUTRA TELA
+        this.id_escola = this.navParams.get('id_escola');
+        this.HttpCtrl.get(this.API_URL + 'tipoEscolas')
+            .map(function (res) { return res.json(); })
+            .subscribe(function (data) {
+            _this.tipoEscolas = data;
+        });
+        this.HttpCtrl.get(this.API_URL + 'estados')
+            .map(function (res) { return res.json(); })
+            .subscribe(function (data) {
+            _this.estados = data;
+        });
+        //FAZER REQUISIÇÃO NA API
+        this.HttpCtrl.get(this.API_URL + 'retornaEscolaEdit?id_escola=' + this.id_escola)
+            .map(function (res) { return res.json(); })
+            .subscribe(function (data) {
+            _this.escola = data;
+            if (data != null) {
+                _this.nomeEscola = _this.escola[0]['nome_escola'];
+                _this.telefone = _this.escola[0]['telefone_escola'];
+                _this.tipo = _this.escola[0]['tipo_escola'];
+                _this.estado = _this.escola[0]['id_estado'];
+                _this.bairro = _this.escola[0]['bairro_escola'];
+                _this.rua = _this.escola[0]['rua_escola'];
+                _this.numero = _this.escola[0]['numero_escola'];
+                _this.email = _this.escola[0]['email_escola'];
+                _this.est = _this.estado;
+                _this.HttpCtrl.get(_this.API_URL + 'cidades?id_estado=' + _this.est)
+                    .map(function (res) { return res.json(); })
+                    .subscribe(function (data) {
+                    _this.cidades = data;
+                });
+                _this.cidade = _this.escola[0]['id_cidade'];
+            }
+        });
+    }
+    EditEscolaPage.prototype.cidadeBuscar = function () {
+        var _this = this;
+        this.HttpCtrl.get(this.API_URL + 'cidades?id_estado=' + this.estado)
+            .map(function (res) { return res.json(); })
+            .subscribe(function (data) {
+            _this.cidades = data;
+        });
+    };
+    EditEscolaPage.prototype.salvarEdicaoEscola = function () {
+        var _this = this;
+        if (this.estado == null
+            || this.cidade == null
+            || this.tipo == null
+            || this.nomeEscola == null) {
+            var alerta = this.alertCtrl.create({
+                title: '<p>Ops!</p>',
+                subTitle: '<p>Preencha todos os dados para continuar!</p>',
+                buttons: ['OK']
+            });
+            alerta.present();
+        }
+        else {
+            this.HttpCtrl.get(this.API_URL + 'salvarEscolaEdicao?estado=' + this.estado
+                + '&cidade=' + this.cidade
+                + '&tipo=' + this.tipo
+                + '&nomeEscola=' + this.nomeEscola
+                + '&bairro=' + this.bairro
+                + '&numero=' + this.numero
+                + '&email=' + this.email
+                + '&rua=' + this.rua
+                + '&telefone=' + this.telefone
+                + '&id_escola=' + this.id_escola)
+                .map(function (res) { return res.json(); })
+                .subscribe(function (data) {
+                if (data == true) {
+                    var alerta = _this.alertCtrl.create({
+                        title: '<p>Atenção!</p>',
+                        subTitle: '<p>Dados alterados com sucesso!</p>',
+                        buttons: ['OK']
+                    });
+                    alerta.present();
+                }
+                else {
+                    var alerta = _this.alertCtrl.create({
+                        title: '<p>Atenção!</p>',
+                        subTitle: '<p>Erro ao tentar salvar, tente novamente!</p>',
+                        buttons: ['OK']
+                    });
+                    alerta.present();
+                }
+                _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__escola_inicio_escola_inicio__["a" /* EscolaInicioPage */], {});
+            });
+        }
+    };
+    EditEscolaPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-edit-escola',template:/*ion-inline-start:"C:\apps\4spa\src\pages\edit-escola\edit-escola.html"*/'<!--\nGenerated template for the EditEscolaPage page.\n\nSee http://ionicframework.com/docs/components/#navigation for more info on\nIonic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Editar Escola</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-list>\n\n    <ion-item>\n      <ion-label color="primary" floating>Nome da Escola</ion-label>\n      <ion-input [(ngModel)]="nomeEscola"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-label color="primary" floating>Telefone</ion-label>\n      <ion-input [(ngModel)]="telefone" type="tel"  maxlength="11"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-label>Tipo de Escola</ion-label>\n      <ion-select [(ngModel)]="tipo">\n        <ion-option *ngFor="let tipoEscola of tipoEscolas" value="{{tipoEscola.id_tipo_escola}}">{{tipoEscola.descricao}}</ion-option>\n      </ion-select>\n    </ion-item>\n\n    <ion-item>\n      <ion-label>UF</ion-label>\n      <ion-select [(ngModel)]="estado" (ionChange)="cidadeBuscar();">\n        <ion-option *ngFor="let estado of estados" value="{{estado.id}}">{{estado.sigla}}</ion-option>\n      </ion-select>\n    </ion-item>\n\n    <ion-item>\n      <ion-label>Cidade</ion-label>\n      <ion-select [(ngModel)]="cidade">\n        <ion-option *ngFor="let cidade of cidades" value="{{cidade.id}}">{{cidade.nome}}</ion-option>\n      </ion-select>\n    </ion-item>\n\n    <ion-item>\n      <ion-label color="primary" floating>Bairro</ion-label>\n      <ion-input [(ngModel)]="bairro" type="text"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-label color="primary" floating>Rua</ion-label>\n      <ion-input [(ngModel)]="rua" type="text"></ion-input>\n    </ion-item>\n\n\n    <ion-item>\n      <ion-label color="primary" floating>N°</ion-label>\n      <ion-input [(ngModel)]="numero" type="tel"  maxlength="11"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-label color="primary" floating>Email</ion-label>\n      <ion-input [(ngModel)]="email" type="texto"></ion-input>\n    </ion-item>\n\n    <br>\n    <button ion-button full (click)="salvarEdicaoEscola();">Salvar Alterações</button>\n\n  </ion-list>\n\n</ion-content>\n'/*ion-inline-end:"C:\apps\4spa\src\pages\edit-escola\edit-escola.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Http */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
+    ], EditEscolaPage);
+    return EditEscolaPage;
+}());
+
+//# sourceMappingURL=edit-escola.js.map
+
+/***/ }),
+
+/***/ 182:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1170,7 +1477,7 @@ var AddTurmaPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 180:
+/***/ 183:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1259,20 +1566,20 @@ var EditTurmaPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 181:
+/***/ 184:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RelatorioTurmasPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__valores_afrs_valores_afrs__ = __webpack_require__(182);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__componentesafrs_componentesafrs__ = __webpack_require__(183);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__tblzonarisco_tblzonarisco__ = __webpack_require__(184);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__tblunificada_tblunificada__ = __webpack_require__(185);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__grafcardio_grafcardio__ = __webpack_require__(186);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__grafosteo_grafosteo__ = __webpack_require__(187);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__grafgeral_grafgeral__ = __webpack_require__(188);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__valores_afrs_valores_afrs__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__componentesafrs_componentesafrs__ = __webpack_require__(186);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__tblzonarisco_tblzonarisco__ = __webpack_require__(187);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__tblunificada_tblunificada__ = __webpack_require__(188);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__grafcardio_grafcardio__ = __webpack_require__(189);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__grafosteo_grafosteo__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__grafgeral_grafgeral__ = __webpack_require__(191);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1351,7 +1658,7 @@ var RelatorioTurmasPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 182:
+/***/ 185:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1424,7 +1731,7 @@ var ValoresAfrsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 183:
+/***/ 186:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1572,7 +1879,7 @@ var ComponentesafrsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 184:
+/***/ 187:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1651,7 +1958,7 @@ var TblzonariscoPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 185:
+/***/ 188:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1758,7 +2065,7 @@ var TblunificadaPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 186:
+/***/ 189:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1880,7 +2187,7 @@ var GrafcardioPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 187:
+/***/ 190:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2002,7 +2309,7 @@ var GrafosteoPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 188:
+/***/ 191:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2121,269 +2428,7 @@ var GrafgeralPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 189:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddEscolaPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__escola_inicio_escola_inicio__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs__);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-/**
-* Generated class for the AddEscolaPage page.
-*
-* See https://ionicframework.com/docs/components/#navigation for more info on
-* Ionic pages and navigation.
-*/
-var AddEscolaPage = /** @class */ (function () {
-    function AddEscolaPage(navCtrl, navParams, HttpCtrl, alertCtrl) {
-        var _this = this;
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.HttpCtrl = HttpCtrl;
-        this.alertCtrl = alertCtrl;
-        this.API_URL = "http://cev.urca.br/treinamento/Api/";
-        this.id_usuario = this.navParams.get('id_usuario');
-        this.HttpCtrl.get(this.API_URL + 'tipoEscolas')
-            .map(function (res) { return res.json(); })
-            .subscribe(function (data) {
-            _this.tipoEscolas = data;
-        });
-        this.HttpCtrl.get(this.API_URL + 'estados')
-            .map(function (res) { return res.json(); })
-            .subscribe(function (data) {
-            _this.estados = data;
-        });
-    }
-    AddEscolaPage.prototype.cidadeBuscar = function () {
-        var _this = this;
-        this.HttpCtrl.get(this.API_URL + 'cidades?id_estado=' + this.estado)
-            .map(function (res) { return res.json(); })
-            .subscribe(function (data) {
-            console.log(data);
-            console.log(data);
-            _this.cidades = data;
-        });
-    };
-    AddEscolaPage.prototype.salvar = function () {
-        var _this = this;
-        if (this.estado == null
-            || this.cidade == null
-            || this.tipo == null
-            || this.nomeEscola == null) {
-            var alerta = this.alertCtrl.create({
-                title: '<p>Ops!</p>',
-                subTitle: '<p>Preencha todos os dados para continuar!</p>',
-                buttons: ['OK']
-            });
-            alerta.present();
-        }
-        else {
-            this.HttpCtrl.get(this.API_URL + 'salvarEscola?estado=' + this.estado
-                + '&cidade=' + this.cidade
-                + '&tipo=' + this.tipo
-                + '&nomeEscola=' + this.nomeEscola
-                + '&bairro=' + this.bairro
-                + '&numero=' + this.numero
-                + '&email=' + this.email
-                + '&rua=' + this.rua
-                + '&id_usuario=' + this.id_usuario)
-                .map(function (res) { return res.json(); })
-                .subscribe(function (data) {
-                if (data != true) {
-                    var alerta = _this.alertCtrl.create({
-                        title: '<p>Atenção!</p>',
-                        subTitle: '<p>Ocorreu um erro ao tentar salvar, tente novamente!</p>',
-                        buttons: ['OK']
-                    });
-                }
-                else {
-                    _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__escola_inicio_escola_inicio__["a" /* EscolaInicioPage */], {
-                        'id_usuario': _this.id_usuario,
-                    });
-                }
-            });
-        }
-    };
-    AddEscolaPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad AddEscolaPage');
-    };
-    AddEscolaPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-add-escola',template:/*ion-inline-start:"C:\apps\4spa\src\pages\add-escola\add-escola.html"*/'<!--\nGenerated template for the AddEscolaPage page.\n\nSee http://ionicframework.com/docs/components/#navigation for more info on\nIonic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Adicionar Nova Escola</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n  <ion-list>\n    <ion-item>\n      <ion-label color="primary" floating>Nome da Escola</ion-label>\n      <ion-input [(ngModel)]="nomeEscola"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-label color="primary" floating>Telefone</ion-label>\n      <ion-input [(ngModel)]="telefone" type="tel"  maxlength="11"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-label>Tipo de Escola</ion-label>\n      <ion-select [(ngModel)]="tipo">\n        <ion-option *ngFor="let tipoEscola of tipoEscolas" value="{{tipoEscola.id_tipo_escola}}">{{tipoEscola.descricao}}</ion-option>\n      </ion-select>\n    </ion-item>\n\n    <ion-item>\n      <ion-label>UF</ion-label>\n      <ion-select [(ngModel)]="estado" (ionChange)="cidadeBuscar();">\n        <ion-option *ngFor="let estado of estados" value="{{estado.id}}">{{estado.sigla}}</ion-option>\n      </ion-select>\n    </ion-item>\n\n    <ion-item>\n      <ion-label>Cidade</ion-label>\n      <ion-select [(ngModel)]="cidade">\n        <ion-option *ngFor="let cidade of cidades" value="{{cidade.id}}">{{cidade.nome}}</ion-option>\n      </ion-select>\n    </ion-item>\n\n\n    <ion-item>\n      <ion-label color="primary" floating>Bairro</ion-label>\n      <ion-input [(ngModel)]="bairro" type="text"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-label color="primary" floating>Rua</ion-label>\n      <ion-input [(ngModel)]="rua" type="text"></ion-input>\n    </ion-item>\n\n\n    <ion-item>\n      <ion-label color="primary" floating>N°</ion-label>\n      <ion-input [(ngModel)]="numero" type="tel"  maxlength="11"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-label color="primary" floating>Email</ion-label>\n      <ion-input [(ngModel)]="email" type="texto"></ion-input>\n    </ion-item>\n\n    <br>\n    <button ion-button full (click)="salvar();">Salvar Escola</button>\n\n\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"C:\apps\4spa\src\pages\add-escola\add-escola.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Http */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
-    ], AddEscolaPage);
-    return AddEscolaPage;
-}());
-
-//# sourceMappingURL=add-escola.js.map
-
-/***/ }),
-
-/***/ 190:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EditEscolaPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__escola_inicio_escola_inicio__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs__);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-/**
-* Generated class for the EditEscolaPage page.
-*
-* See https://ionicframework.com/docs/components/#navigation for more info on
-* Ionic pages and navigation.
-*/
-var EditEscolaPage = /** @class */ (function () {
-    function EditEscolaPage(navCtrl, navParams, HttpCtrl, alertCtrl) {
-        var _this = this;
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.HttpCtrl = HttpCtrl;
-        this.alertCtrl = alertCtrl;
-        this.API_URL = "http://cev.urca.br/treinamento/Api/";
-        //RECEBE O PARÂMETRO DA OUTRA TELA
-        this.id_escola = this.navParams.get('id_escola');
-        this.HttpCtrl.get(this.API_URL + 'tipoEscolas')
-            .map(function (res) { return res.json(); })
-            .subscribe(function (data) {
-            _this.tipoEscolas = data;
-        });
-        this.HttpCtrl.get(this.API_URL + 'estados')
-            .map(function (res) { return res.json(); })
-            .subscribe(function (data) {
-            _this.estados = data;
-        });
-        //FAZER REQUISIÇÃO NA API
-        this.HttpCtrl.get(this.API_URL + 'retornaEscolaEdit?id_escola=' + this.id_escola)
-            .map(function (res) { return res.json(); })
-            .subscribe(function (data) {
-            _this.escola = data;
-            if (data != null) {
-                _this.nomeEscola = _this.escola[0]['nome_escola'];
-                _this.telefone = _this.escola[0]['telefone_escola'];
-                _this.tipo = _this.escola[0]['tipo_escola'];
-                _this.estado = _this.escola[0]['id_estado'];
-                _this.bairro = _this.escola[0]['bairro_escola'];
-                _this.rua = _this.escola[0]['rua_escola'];
-                _this.numero = _this.escola[0]['numero_escola'];
-                _this.email = _this.escola[0]['email_escola'];
-                _this.est = _this.estado;
-                _this.HttpCtrl.get(_this.API_URL + 'cidades?id_estado=' + _this.est)
-                    .map(function (res) { return res.json(); })
-                    .subscribe(function (data) {
-                    _this.cidades = data;
-                });
-                _this.cidade = _this.escola[0]['id_cidade'];
-            }
-        });
-    }
-    EditEscolaPage.prototype.cidadeBuscar = function () {
-        var _this = this;
-        this.HttpCtrl.get(this.API_URL + 'cidades?id_estado=' + this.estado)
-            .map(function (res) { return res.json(); })
-            .subscribe(function (data) {
-            _this.cidades = data;
-        });
-    };
-    EditEscolaPage.prototype.salvarEdicaoEscola = function () {
-        var _this = this;
-        if (this.estado == null
-            || this.cidade == null
-            || this.tipo == null
-            || this.nomeEscola == null) {
-            var alerta = this.alertCtrl.create({
-                title: '<p>Ops!</p>',
-                subTitle: '<p>Preencha todos os dados para continuar!</p>',
-                buttons: ['OK']
-            });
-            alerta.present();
-        }
-        else {
-            this.HttpCtrl.get(this.API_URL + 'salvarEscolaEdicao?estado=' + this.estado
-                + '&cidade=' + this.cidade
-                + '&tipo=' + this.tipo
-                + '&nomeEscola=' + this.nomeEscola
-                + '&bairro=' + this.bairro
-                + '&numero=' + this.numero
-                + '&email=' + this.email
-                + '&rua=' + this.rua
-                + '&telefone=' + this.telefone
-                + '&id_escola=' + this.id_escola)
-                .map(function (res) { return res.json(); })
-                .subscribe(function (data) {
-                if (data == true) {
-                    var alerta = _this.alertCtrl.create({
-                        title: '<p>Atenção!</p>',
-                        subTitle: '<p>Dados alterados com sucesso!</p>',
-                        buttons: ['OK']
-                    });
-                    alerta.present();
-                }
-                else {
-                    var alerta = _this.alertCtrl.create({
-                        title: '<p>Atenção!</p>',
-                        subTitle: '<p>Erro ao tentar salvar, tente novamente!</p>',
-                        buttons: ['OK']
-                    });
-                    alerta.present();
-                }
-                _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__escola_inicio_escola_inicio__["a" /* EscolaInicioPage */], {});
-            });
-        }
-    };
-    EditEscolaPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-edit-escola',template:/*ion-inline-start:"C:\apps\4spa\src\pages\edit-escola\edit-escola.html"*/'<!--\nGenerated template for the EditEscolaPage page.\n\nSee http://ionicframework.com/docs/components/#navigation for more info on\nIonic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Editar Escola</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-list>\n\n    <ion-item>\n      <ion-label color="primary" floating>Nome da Escola</ion-label>\n      <ion-input [(ngModel)]="nomeEscola"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-label color="primary" floating>Telefone</ion-label>\n      <ion-input [(ngModel)]="telefone" type="tel"  maxlength="11"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-label>Tipo de Escola</ion-label>\n      <ion-select [(ngModel)]="tipo">\n        <ion-option *ngFor="let tipoEscola of tipoEscolas" value="{{tipoEscola.id_tipo_escola}}">{{tipoEscola.descricao}}</ion-option>\n      </ion-select>\n    </ion-item>\n\n    <ion-item>\n      <ion-label>UF</ion-label>\n      <ion-select [(ngModel)]="estado" (ionChange)="cidadeBuscar();">\n        <ion-option *ngFor="let estado of estados" value="{{estado.id}}">{{estado.sigla}}</ion-option>\n      </ion-select>\n    </ion-item>\n\n    <ion-item>\n      <ion-label>Cidade</ion-label>\n      <ion-select [(ngModel)]="cidade">\n        <ion-option *ngFor="let cidade of cidades" value="{{cidade.id}}">{{cidade.nome}}</ion-option>\n      </ion-select>\n    </ion-item>\n\n    <ion-item>\n      <ion-label color="primary" floating>Bairro</ion-label>\n      <ion-input [(ngModel)]="bairro" type="text"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-label color="primary" floating>Rua</ion-label>\n      <ion-input [(ngModel)]="rua" type="text"></ion-input>\n    </ion-item>\n\n\n    <ion-item>\n      <ion-label color="primary" floating>N°</ion-label>\n      <ion-input [(ngModel)]="numero" type="tel"  maxlength="11"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-label color="primary" floating>Email</ion-label>\n      <ion-input [(ngModel)]="email" type="texto"></ion-input>\n    </ion-item>\n\n    <br>\n    <button ion-button full (click)="salvarEdicaoEscola();">Salvar Alterações</button>\n\n  </ion-list>\n\n</ion-content>\n'/*ion-inline-end:"C:\apps\4spa\src\pages\edit-escola\edit-escola.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Http */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
-    ], EditEscolaPage);
-    return EditEscolaPage;
-}());
-
-//# sourceMappingURL=edit-escola.js.map
-
-/***/ }),
-
-/***/ 191:
+/***/ 192:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2422,35 +2467,45 @@ var CadastroPage = /** @class */ (function () {
     };
     CadastroPage.prototype.salvar = function () {
         var _this = this;
-        if (this.nome == null || this.email == null || this.senha == null) {
+        if (this.senha == this.repeteSenha) {
+            if (this.nome == null || this.email == null || this.senha == null) {
+                var alerta = this.alertCtrl.create({
+                    title: '<p>Atenção!</p>',
+                    subTitle: '<p>Todos os campos são obrigatórios!</p>',
+                    buttons: ['OK']
+                });
+                alerta.present();
+            }
+            else {
+                this.HttpCtrl.get(this.API_URL + 'salvarCadastro?nome=' + this.nome
+                    + '&email=' + this.email
+                    + '&senha=' + this.senha)
+                    .map(function (res) { return res.json(); })
+                    .subscribe(function (data) {
+                    var alerta = _this.alertCtrl.create({
+                        title: '<p>Atenção!</p>',
+                        subTitle: '<p>' + data + '</p>',
+                        buttons: ['OK']
+                    });
+                    alerta.present();
+                    if (data == "Usuário cadastrado com Sucesso!") {
+                        _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__home_home__["a" /* HomePage */], {});
+                    }
+                }); //FIM subscribe
+            }
+        }
+        else {
             var alerta = this.alertCtrl.create({
                 title: '<p>Atenção!</p>',
-                subTitle: '<p>Todos os campos são obrigatórios!</p>',
+                subTitle: '<p>Senhas não conferem!</p>',
                 buttons: ['OK']
             });
             alerta.present();
         }
-        else {
-            this.HttpCtrl.get(this.API_URL + 'salvarCadastro?nome=' + this.nome
-                + '&email=' + this.email
-                + '&senha=' + this.senha)
-                .map(function (res) { return res.json(); })
-                .subscribe(function (data) {
-                var alerta = _this.alertCtrl.create({
-                    title: '<p>Atenção!</p>',
-                    subTitle: '<p>' + data + '</p>',
-                    buttons: ['OK']
-                });
-                alerta.present();
-                if (data == "Usuário cadastrado com Sucesso!") {
-                    _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__home_home__["a" /* HomePage */], {});
-                }
-            }); //FIM subscribe
-        }
     };
     CadastroPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-cadastro',template:/*ion-inline-start:"C:\apps\4spa\src\pages\cadastro\cadastro.html"*/'<!--\nGenerated template for the CadastroPage page.\n\nSee http://ionicframework.com/docs/components/#navigation for more info on\nIonic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Cadastro</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-list>\n    <ion-item>\n      <ion-label color="primary" floating>Nome</ion-label>\n      <ion-input [(ngModel)]="nome"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-label color="primary" floating>Email</ion-label>\n      <ion-input [(ngModel)]="email"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-label color="primary" floating>Senha</ion-label>\n      <ion-input [(ngModel)]="senha" type="password"></ion-input>\n    </ion-item>\n\n    <br>\n    <button ion-button full (click)="salvar();">Salvar cadastro</button>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"C:\apps\4spa\src\pages\cadastro\cadastro.html"*/,
+            selector: 'page-cadastro',template:/*ion-inline-start:"C:\apps\4spa\src\pages\cadastro\cadastro.html"*/'<!--\nGenerated template for the CadastroPage page.\n\nSee http://ionicframework.com/docs/components/#navigation for more info on\nIonic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Cadastro</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-list>\n    <ion-item>\n      <ion-label color="primary" floating>Nome</ion-label>\n      <ion-input [(ngModel)]="nome"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-label color="primary" floating>Email</ion-label>\n      <ion-input [(ngModel)]="email"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-label color="primary" floating>Senha</ion-label>\n      <ion-input [(ngModel)]="senha" type="password"></ion-input>\n    </ion-item>\n\n    <ion-item>\n      <ion-label color="primary" floating>Repita a Senha</ion-label>\n      <ion-input [(ngModel)]="repeteSenha" type="password"></ion-input>\n    </ion-item>\n\n    <br>\n    <button ion-button full (click)="salvar();">Salvar cadastro</button>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"C:\apps\4spa\src\pages\cadastro\cadastro.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Http */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
@@ -2459,51 +2514,6 @@ var CadastroPage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=cadastro.js.map
-
-/***/ }),
-
-/***/ 192:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the AboutPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var AboutPage = /** @class */ (function () {
-    function AboutPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    AboutPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad AboutPage');
-    };
-    AboutPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-about',template:/*ion-inline-start:"C:\apps\4spa\src\pages\about\about.html"*/'<!--\nGenerated template for the AboutPage page.\n\nSee http://ionicframework.com/docs/components/#navigation for more info on\nIonic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Sobre o 4SPA</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-item>\n    <img src="/assets/imgs/logo.jpg">\n    <h3>4SPA - School Physical Assessment</h3>\n  </ion-item>\n\n  <ion-card>\n\n\n    <ion-card-content class="sobre">\n      Este aplicativo contém orientações destinadas a vocês, famílias e cuidadores de crianças. <br>\n      O objetivo é servir de apoio no entendimento do processo saúde-doença da criança no ambiente domiciliar, assim como auxiliar no manejo correto dos problemas clínicos mais comuns nessa faixa etária e subsidiar a tomada de decisões pelos responsáveis.\n    <br>  As orientações são no intuito de racionalizar a utilização de medidas não-farmacológicas com evidências clínicas comprovadas na literatura científica e os cuidados com as medicações que mesmo isentas de prescrições não são isentas de riscos.\n    <br>  É importante que os responsáveis utilizem esse material para reconhecer sinais de alerta e procurar atendimento médico como também tranquilizar-se frente a problemas de saúde sem sinais de localização.\n    <br>  É igualmente importante, para o alcance do restabelecimento da saúde da criança, o fortalecimento das competências familiares para a continuidade do tratamento e do cuidado dela nos espaços de convivência familiar e comunitário.\n    <br>  Então, vamos conhecer o que fazer frente as principais enfermidades da criança?\n\n    </ion-card-content>\n\n  </ion-card>\n</ion-content>\n'/*ion-inline-end:"C:\apps\4spa\src\pages\about\about.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
-    ], AboutPage);
-    return AboutPage;
-}());
-
-//# sourceMappingURL=about.js.map
 
 /***/ }),
 
@@ -2529,11 +2539,11 @@ webpackEmptyAsyncContext.id = 203;
 
 var map = {
 	"../pages/about/about.module": [
-		919,
+		914,
 		25
 	],
 	"../pages/add-aluno/add-aluno.module": [
-		914,
+		915,
 		24
 	],
 	"../pages/add-escola/add-escola.module": [
@@ -2541,23 +2551,23 @@ var map = {
 		23
 	],
 	"../pages/add-turma/add-turma.module": [
-		915,
+		917,
 		22
 	],
 	"../pages/avaliacoes/avaliacoes.module": [
-		917,
+		918,
 		21
 	],
 	"../pages/cadastro/cadastro.module": [
-		918,
+		919,
 		20
 	],
 	"../pages/componentesafrs/componentesafrs.module": [
-		922,
+		920,
 		19
 	],
 	"../pages/edit-aluno/edit-aluno.module": [
-		923,
+		921,
 		18
 	],
 	"../pages/edit-avaliacao/edit-avaliacao.module": [
@@ -2565,31 +2575,31 @@ var map = {
 		17
 	],
 	"../pages/edit-escola/edit-escola.module": [
-		920,
+		936,
 		16
 	],
 	"../pages/edit-turma/edit-turma.module": [
-		921,
+		922,
 		15
 	],
 	"../pages/escola-inicio/escola-inicio.module": [
-		924,
+		923,
 		14
 	],
 	"../pages/grafcardio/grafcardio.module": [
-		926,
+		925,
 		13
 	],
 	"../pages/grafgeral/grafgeral.module": [
-		925,
+		924,
 		12
 	],
 	"../pages/grafosteo/grafosteo.module": [
-		927,
+		926,
 		11
 	],
 	"../pages/inicio/inicio.module": [
-		931,
+		927,
 		10
 	],
 	"../pages/lista-avaliacoes/lista-avaliacoes.module": [
@@ -2601,15 +2611,15 @@ var map = {
 		8
 	],
 	"../pages/manual/manual.module": [
-		930,
+		929,
 		7
 	],
 	"../pages/relatorio-turmas/relatorio-turmas.module": [
-		929,
+		930,
 		6
 	],
 	"../pages/tblunificada/tblunificada.module": [
-		933,
+		931,
 		5
 	],
 	"../pages/tblzonarisco/tblzonarisco.module": [
@@ -2617,7 +2627,7 @@ var map = {
 		4
 	],
 	"../pages/turmas-details/turmas-details.module": [
-		935,
+		933,
 		3
 	],
 	"../pages/turmas/turmas.module": [
@@ -2625,7 +2635,7 @@ var map = {
 		2
 	],
 	"../pages/valores-afrs/valores-afrs.module": [
-		936,
+		935,
 		1
 	]
 };
@@ -2724,30 +2734,30 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_list_list__ = __webpack_require__(851);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_inicio_inicio__ = __webpack_require__(105);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_escola_inicio_escola_inicio__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_add_escola_add_escola__ = __webpack_require__(189);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_edit_escola_edit_escola__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_add_escola_add_escola__ = __webpack_require__(180);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_edit_escola_edit_escola__ = __webpack_require__(181);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_turmas_turmas__ = __webpack_require__(106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_turmas_details_turmas_details__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_add_turma_add_turma__ = __webpack_require__(179);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_edit_turma_edit_turma__ = __webpack_require__(180);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_add_turma_add_turma__ = __webpack_require__(182);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_edit_turma_edit_turma__ = __webpack_require__(183);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_listar_alunos_listar_alunos__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_add_aluno_add_aluno__ = __webpack_require__(174);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_edit_aluno_edit_aluno__ = __webpack_require__(175);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_avaliacoes_avaliacoes__ = __webpack_require__(177);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_add_aluno_add_aluno__ = __webpack_require__(175);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_edit_aluno_edit_aluno__ = __webpack_require__(176);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_avaliacoes_avaliacoes__ = __webpack_require__(178);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_lista_avaliacoes_lista_avaliacoes__ = __webpack_require__(76);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_edit_avaliacao_edit_avaliacao__ = __webpack_require__(178);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_relatorio_turmas_relatorio_turmas__ = __webpack_require__(181);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_valores_afrs_valores_afrs__ = __webpack_require__(182);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_componentesafrs_componentesafrs__ = __webpack_require__(183);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_tblzonarisco_tblzonarisco__ = __webpack_require__(184);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_tblunificada_tblunificada__ = __webpack_require__(185);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_grafcardio_grafcardio__ = __webpack_require__(186);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__pages_grafosteo_grafosteo__ = __webpack_require__(187);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_edit_avaliacao_edit_avaliacao__ = __webpack_require__(179);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_relatorio_turmas_relatorio_turmas__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_valores_afrs_valores_afrs__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_componentesafrs_componentesafrs__ = __webpack_require__(186);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_tblzonarisco_tblzonarisco__ = __webpack_require__(187);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_tblunificada_tblunificada__ = __webpack_require__(188);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_grafcardio_grafcardio__ = __webpack_require__(189);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__pages_grafosteo_grafosteo__ = __webpack_require__(190);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_manual_manual__ = __webpack_require__(519);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__pages_pdf_viewer_pdf_viewer__ = __webpack_require__(852);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pages_grafgeral_grafgeral__ = __webpack_require__(188);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pages_about_about__ = __webpack_require__(192);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pages_cadastro_cadastro__ = __webpack_require__(191);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pages_grafgeral_grafgeral__ = __webpack_require__(191);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pages_about_about__ = __webpack_require__(174);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pages_cadastro_cadastro__ = __webpack_require__(192);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__ionic_native_status_bar__ = __webpack_require__(383);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__ionic_native_splash_screen__ = __webpack_require__(384);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_35_ng2_charts__ = __webpack_require__(853);
@@ -2852,29 +2862,29 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["e" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
                     links: [
+                        { loadChildren: '../pages/about/about.module#AboutPageModule', name: 'AboutPage', segment: 'about', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/add-aluno/add-aluno.module#AddAlunoPageModule', name: 'AddAlunoPage', segment: 'add-aluno', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/add-turma/add-turma.module#AddTurmaPageModule', name: 'AddTurmaPage', segment: 'add-turma', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/add-escola/add-escola.module#AddEscolaPageModule', name: 'AddEscolaPage', segment: 'add-escola', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/add-turma/add-turma.module#AddTurmaPageModule', name: 'AddTurmaPage', segment: 'add-turma', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/avaliacoes/avaliacoes.module#AvaliacoesPageModule', name: 'AvaliacoesPage', segment: 'avaliacoes', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/cadastro/cadastro.module#CadastroPageModule', name: 'CadastroPage', segment: 'cadastro', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/about/about.module#AboutPageModule', name: 'AboutPage', segment: 'about', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/edit-escola/edit-escola.module#EditEscolaPageModule', name: 'EditEscolaPage', segment: 'edit-escola', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/edit-turma/edit-turma.module#EditTurmaPageModule', name: 'EditTurmaPage', segment: 'edit-turma', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/componentesafrs/componentesafrs.module#ComponentesafrsPageModule', name: 'ComponentesafrsPage', segment: 'componentesafrs', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/edit-aluno/edit-aluno.module#EditAlunoPageModule', name: 'EditAlunoPage', segment: 'edit-aluno', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/edit-turma/edit-turma.module#EditTurmaPageModule', name: 'EditTurmaPage', segment: 'edit-turma', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/escola-inicio/escola-inicio.module#EscolaInicioPageModule', name: 'EscolaInicioPage', segment: 'escola-inicio', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/grafgeral/grafgeral.module#GrafgeralPageModule', name: 'GrafgeralPage', segment: 'grafgeral', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/grafcardio/grafcardio.module#GrafcardioPageModule', name: 'GrafcardioPage', segment: 'grafcardio', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/grafosteo/grafosteo.module#GrafosteoPageModule', name: 'GrafosteoPage', segment: 'grafosteo', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/listar-alunos/listar-alunos.module#ListarAlunosPageModule', name: 'ListarAlunosPage', segment: 'listar-alunos', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/relatorio-turmas/relatorio-turmas.module#RelatorioTurmasPageModule', name: 'RelatorioTurmasPage', segment: 'relatorio-turmas', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/manual/manual.module#ManualPageModule', name: 'ManualPage', segment: 'manual', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/inicio/inicio.module#InicioPageModule', name: 'InicioPage', segment: 'inicio', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/tblzonarisco/tblzonarisco.module#TblzonariscoPageModule', name: 'TblzonariscoPage', segment: 'tblzonarisco', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/listar-alunos/listar-alunos.module#ListarAlunosPageModule', name: 'ListarAlunosPage', segment: 'listar-alunos', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/manual/manual.module#ManualPageModule', name: 'ManualPage', segment: 'manual', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/relatorio-turmas/relatorio-turmas.module#RelatorioTurmasPageModule', name: 'RelatorioTurmasPage', segment: 'relatorio-turmas', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/tblunificada/tblunificada.module#TblunificadaPageModule', name: 'TblunificadaPage', segment: 'tblunificada', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/turmas/turmas.module#TurmasPageModule', name: 'TurmasPage', segment: 'turmas', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/tblzonarisco/tblzonarisco.module#TblzonariscoPageModule', name: 'TblzonariscoPage', segment: 'tblzonarisco', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/turmas-details/turmas-details.module#TurmasDetailsPageModule', name: 'TurmasDetailsPage', segment: 'turmas-details', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/turmas/turmas.module#TurmasPageModule', name: 'TurmasPage', segment: 'turmas', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/valores-afrs/valores-afrs.module#ValoresAfrsPageModule', name: 'ValoresAfrsPage', segment: 'valores-afrs', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/edit-escola/edit-escola.module#EditEscolaPageModule', name: 'EditEscolaPage', segment: 'edit-escola', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/edit-avaliacao/edit-avaliacao.module#EditAvaliacaoPageModule', name: 'EditAvaliacaoPage', segment: 'edit-avaliacao', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/lista-avaliacoes/lista-avaliacoes.module#ListaAvaliacoesPageModule', name: 'ListaAvaliacoesPage', segment: 'lista-avaliacoes', priority: 'low', defaultHistory: [] }
                     ]
@@ -2946,8 +2956,8 @@ var AppModule = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListarAlunosPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__add_aluno_add_aluno__ = __webpack_require__(174);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__edit_aluno_edit_aluno__ = __webpack_require__(175);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__add_aluno_add_aluno__ = __webpack_require__(175);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__edit_aluno_edit_aluno__ = __webpack_require__(176);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__lista_avaliacoes_lista_avaliacoes__ = __webpack_require__(76);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_http__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs__ = __webpack_require__(17);
@@ -3071,10 +3081,10 @@ var ListarAlunosPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TurmasDetailsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__add_turma_add_turma__ = __webpack_require__(179);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__edit_turma_edit_turma__ = __webpack_require__(180);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__add_turma_add_turma__ = __webpack_require__(182);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__edit_turma_edit_turma__ = __webpack_require__(183);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__listar_alunos_listar_alunos__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__relatorio_turmas_relatorio_turmas__ = __webpack_require__(181);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__relatorio_turmas_relatorio_turmas__ = __webpack_require__(184);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_http__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs__);
@@ -3201,8 +3211,8 @@ var TurmasDetailsPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListaAvaliacoesPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__avaliacoes_avaliacoes__ = __webpack_require__(177);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__edit_avaliacao_edit_avaliacao__ = __webpack_require__(178);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__avaliacoes_avaliacoes__ = __webpack_require__(178);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__edit_avaliacao_edit_avaliacao__ = __webpack_require__(179);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__listar_alunos_listar_alunos__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_http__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs__ = __webpack_require__(17);
@@ -3535,8 +3545,8 @@ var ListaAvaliacoesPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EscolaInicioPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__add_escola_add_escola__ = __webpack_require__(189);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__edit_escola_edit_escola__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__add_escola_add_escola__ = __webpack_require__(180);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__edit_escola_edit_escola__ = __webpack_require__(181);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__turmas_details_turmas_details__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_http__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs__ = __webpack_require__(17);
@@ -3708,6 +3718,7 @@ var MyApp = /** @class */ (function () {
             // Here you can do any higher level native things you might need.
             _this.statusBar.styleDefault();
             _this.splashScreen.hide();
+            //      setTimeout(() => {this.rootPage = 'HomePage'}, 1000);
         });
     };
     MyApp.prototype.openPage = function (page) {

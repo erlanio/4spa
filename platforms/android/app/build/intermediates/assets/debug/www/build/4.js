@@ -1,14 +1,14 @@
 webpackJsonp([4],{
 
-/***/ 280:
+/***/ 932:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NiveldefebrePageModule", function() { return NiveldefebrePageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__niveldefebre__ = __webpack_require__(104);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TblzonariscoPageModule", function() { return TblzonariscoPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tblzonarisco__ = __webpack_require__(184);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var NiveldefebrePageModule = /** @class */ (function () {
-    function NiveldefebrePageModule() {
+var TblzonariscoPageModule = /** @class */ (function () {
+    function TblzonariscoPageModule() {
     }
-    NiveldefebrePageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+    TblzonariscoPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__niveldefebre__["a" /* NiveldefebrePage */],
+                __WEBPACK_IMPORTED_MODULE_2__tblzonarisco__["a" /* TblzonariscoPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__niveldefebre__["a" /* NiveldefebrePage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__tblzonarisco__["a" /* TblzonariscoPage */]),
             ],
         })
-    ], NiveldefebrePageModule);
-    return NiveldefebrePageModule;
+    ], TblzonariscoPageModule);
+    return TblzonariscoPageModule;
 }());
 
-//# sourceMappingURL=niveldefebre.module.js.map
+//# sourceMappingURL=tblzonarisco.module.js.map
 
 /***/ })
 

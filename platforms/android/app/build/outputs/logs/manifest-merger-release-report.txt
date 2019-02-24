@@ -9,19 +9,19 @@ INJECTED from C:\apps\4spa\platforms\android\app\src\main\AndroidManifest.xml:2:
 INJECTED from C:\apps\4spa\platforms\android\app\src\main\AndroidManifest.xml:2:1-14:12
 INJECTED from C:\apps\4spa\platforms\android\app\src\main\AndroidManifest.xml:2:1-14:12
 	package
-		ADDED from C:\apps\4spa\platforms\android\app\src\main\AndroidManifest.xml:2:98-123
+		ADDED from C:\apps\4spa\platforms\android\app\src\main\AndroidManifest.xml:2:100-125
 		INJECTED from C:\apps\4spa\platforms\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\apps\4spa\platforms\android\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\apps\4spa\platforms\android\app\src\main\AndroidManifest.xml:2:70-97
+		ADDED from C:\apps\4spa\platforms\android\app\src\main\AndroidManifest.xml:2:72-99
 		INJECTED from C:\apps\4spa\platforms\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\apps\4spa\platforms\android\app\src\main\AndroidManifest.xml
 	android:hardwareAccelerated
 		ADDED from C:\apps\4spa\platforms\android\app\src\main\AndroidManifest.xml:2:11-45
 	xmlns:android
-		ADDED from C:\apps\4spa\platforms\android\app\src\main\AndroidManifest.xml:2:124-182
+		ADDED from C:\apps\4spa\platforms\android\app\src\main\AndroidManifest.xml:2:126-184
 	android:versionCode
-		ADDED from C:\apps\4spa\platforms\android\app\src\main\AndroidManifest.xml:2:46-69
+		ADDED from C:\apps\4spa\platforms\android\app\src\main\AndroidManifest.xml:2:46-71
 		INJECTED from C:\apps\4spa\platforms\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\apps\4spa\platforms\android\app\src\main\AndroidManifest.xml
 supports-screens
