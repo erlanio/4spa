@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Gráfico Geral
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div padding>
+    <ion-segment [(ngModel)]="segment" (ionChange)="calc(segment)">
+      <ion-segment-button  value="cardiometabolica">
+        Cardiometabólica
+      </ion-segment-button>
+      <ion-segment-button value="Masculino">
+        Osteomusculáres
+      </ion-segment-button>
+    </ion-segment>
+  </div>
+
+  <div [ngSwitch]="segment" style="segment">
+
+    <ion-list *ngSwitchCase="'cardiometabolica'" >
+      <p>Total Avaliações: {{this.totalAvaliacoes}}</p>
+      <p>Total ZRS: {{this.totalZRSdCardio}} - Total ZS: {{this.totalAvaliacoes - this.totalZRSdCardio}}</p>
+      <div width="600" height="800">
+        <div style="display: block" >
+          <canvas baseChart
+          [data]="doughnutChartDataFem"
+          [labels]="doughnutChartLabelsFem"
+          [chartType]="doughnutChartTypeFem"></canvas>
+        </div>
+      </div>
+    </ion-list>
+
+    <ion-list *ngSwitchCase="'Masculino'">
+      <p>Total Avaliações: {{this.totalAvaliacoes}}</p>
+      <p>Total ZRS: {{this.totalZRSdOsteo}} - Total ZS: {{this.totalAvaliacoes - totalZRSdOsteo}}</p>
+
+      <div width="600" height="800">
+
+        <div style="display: block" >
+          <canvas baseChart
+          [data]="doughnutChartData"
+          [labels]="doughnutChartLabels"
+          [chartType]="doughnutChartType"></canvas>
+        </div>
+      </div>
+    </ion-list>
+  </div>
+</ion-content>

@@ -1,0 +1,32 @@
+<!--
+Generated template for the TurmasPage page.
+
+See http://ionicframework.com/docs/components/#navigation for more info on
+Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-toolbar color='primary'>
+    <ion-buttons start>
+    </ion-buttons>
+
+    <ion-searchbar
+    [(ngModel)]="searchEscola"
+    [showCancelButton]="shouldShowCancel"
+    (ionInput)="updateList()"
+    (ionCancel)="allList()">
+  </ion-searchbar>
+
+
+</ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-list>
+    <ion-item *ngFor="let escola of escolas" (click)='buscarTurmas(escola.id_escola)'>
+      <ion-icon name="school" item-start></ion-icon>
+      <strong>{{escola.nome_escola}}</strong><br>
+      {{escola.nome}}
+    </ion-item>
+  </ion-list>
+</ion-content>

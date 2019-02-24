@@ -1,0 +1,77 @@
+<!--
+Generated template for the EditEscolaPage page.
+
+See http://ionicframework.com/docs/components/#navigation for more info on
+Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Editar Escola</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-list>
+
+    <ion-item>
+      <ion-label color="primary" floating>Nome da Escola</ion-label>
+      <ion-input [(ngModel)]="nomeEscola"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label color="primary" floating>Telefone</ion-label>
+      <ion-input [(ngModel)]="telefone" type="tel"  maxlength="11"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Tipo de Escola</ion-label>
+      <ion-select [(ngModel)]="tipo">
+        <ion-option *ngFor="let tipoEscola of tipoEscolas" value="{{tipoEscola.id_tipo_escola}}">{{tipoEscola.descricao}}</ion-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>UF</ion-label>
+      <ion-select [(ngModel)]="estado" (ionChange)="cidadeBuscar();">
+        <ion-option *ngFor="let estado of estados" value="{{estado.id}}">{{estado.sigla}}</ion-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Cidade</ion-label>
+      <ion-select [(ngModel)]="cidade">
+        <ion-option *ngFor="let cidade of cidades" value="{{cidade.id}}">{{cidade.nome}}</ion-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label color="primary" floating>Bairro</ion-label>
+      <ion-input [(ngModel)]="bairro" type="text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label color="primary" floating>Rua</ion-label>
+      <ion-input [(ngModel)]="rua" type="text"></ion-input>
+    </ion-item>
+
+
+    <ion-item>
+      <ion-label color="primary" floating>N°</ion-label>
+      <ion-input [(ngModel)]="numero" type="tel"  maxlength="11"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label color="primary" floating>Email</ion-label>
+      <ion-input [(ngModel)]="email" type="texto"></ion-input>
+    </ion-item>
+
+    <br>
+    <button ion-button full (click)="salvarEdicaoEscola();">Salvar Alterações</button>
+
+  </ion-list>
+
+</ion-content>

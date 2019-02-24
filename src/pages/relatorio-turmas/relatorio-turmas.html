@@ -1,0 +1,77 @@
+<!--
+Generated template for the RelatorioTurmasPage page.
+
+See http://ionicframework.com/docs/components/#navigation for more info on
+Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>Relatórios Turma</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <ion-grid>
+    <ion-row class="relatorios-itens" (click)='valoresAFRS()'>
+      <ion-col col-4>
+        <img src="/assets/imgs/apt-fisica-componentes.jpg">
+      </ion-col>
+      <ion-col col-8>
+        <p>Tabela de Valores de Componentes da Aptidão Física Relacionados a Saúde</p>
+      </ion-col>
+      <!--  <ion-col col-6>
+      <img src="/assets/imgs/apt-fisica.jpg" (click)='componentesAFRS()'>
+      <p>Tabela de Classificação de
+      Componentes da Aptidão Física Relacionados a Saúde</p>
+    </ion-col>
+    <ion-col col-4>
+    <img src="/assets/imgs/tblunificada.png"  (click)='tblunificada()'>
+    <p>Tabela Unificada de Componentes de Aptidão Física e Zona de Riscos</p>
+  </ion-col>
+  <ion-col col-2></ion-col>-->
+
+</ion-row>
+
+<ion-row (click)='tblunificada()' class="relatorios-itens">
+  <ion-col col-4>
+    <img src="/assets/imgs/tblunificada.png">
+  </ion-col>
+  <ion-col col-8>
+    <p>Tabela Unificada de Componentes de Aptidão Física e Zona de Riscos</p>
+  </ion-col>
+</ion-row>
+
+
+
+<ion-row (click)='grafCardio()' class="relatorios-itens">
+  <ion-col col-4>
+    <img src="/assets/imgs/grafico.png">
+  </ion-col>
+  <ion-col col-8>
+    <p>Gráfico ZR Cardiometabólica por sexo</p>
+  </ion-col>
+</ion-row>
+
+
+<ion-row (click)='grafOsteo()' class="relatorios-itens">
+  <ion-col col-4>
+    <img src="/assets/imgs/grafico.png" >
+  </ion-col>
+  <ion-col col-8>
+    <p>Gráfico ZR Osteomusculares por sexo</p>
+  </ion-col>
+</ion-row>
+
+<ion-row (click)='grafGeral()' class="relatorios-itens">
+  <ion-col col-4>
+    <img src="/assets/imgs/grafico.png" >
+  </ion-col>
+  <ion-col col-8>
+    <p>Gráfico Geral</p>
+  </ion-col>
+</ion-row>
+
+
+</ion-grid>
+</ion-content>

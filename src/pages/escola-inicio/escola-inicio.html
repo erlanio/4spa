@@ -1,0 +1,44 @@
+<!--
+Generated template for the EscolaInicioPage page.
+
+See http://ionicframework.com/docs/components/#navigation for more info on
+Ionic pages and navigation.
+-->
+<ion-header>
+	<ion-toolbar color='primary'>
+		<ion-buttons start>
+		</ion-buttons>
+
+    <ion-searchbar
+      [(ngModel)]="searchEscola"
+      [showCancelButton]="shouldShowCancel"
+      (ionInput)="updateList()"
+      (ionCancel)="allList()">
+    </ion-searchbar>
+
+		<ion-buttons end>
+			<button ion-button icon-only (click)='addEscola()'>
+				<ion-icon name="add"></ion-icon>
+			</button>
+		</ion-buttons>
+	</ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-list>
+    <ion-item *ngFor="let escola of escolas" (press)="press(escola.id_escola)">
+      <ion-icon name="school" item-start></ion-icon>
+      <strong>{{escola.nome_escola}}</strong><br>
+      {{escola.nome}}<br>
+			<button ion-button  icon-start (click)='editEscola(escola.id_escola)'>
+        <ion-icon name="create"></ion-icon>
+        Editar
+      </button>
+      <button ion-button color="secondary" icon-start (click)='buscarTurmas(escola.id_escola)'>
+        <ion-icon name="list"></ion-icon>
+        Listar Turmas
+      </button>
+    </ion-item>
+  </ion-list>
+</ion-content>
