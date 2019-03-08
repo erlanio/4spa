@@ -18,41 +18,35 @@ Ionic pages and navigation.
 
   <ion-grid>
 
-    <ion-row class="avaliacoes"  (click)='avaliacoes()'>
+    <ion-row class="avaliacoes" (click)='avaliacoes()'>
+      <ion-col col-4></ion-col>
       <ion-col col-4>
         <img src="/assets/imgs/logo-avaliacao-new.png">
       </ion-col>
-      <ion-col col-8 class="avaliacoes-titulo">
+      <ion-col col-4></ion-col>
+
+      <ion-col col-12 class="avaliacoes-titulo">
         <p>AVALIAÇÕES</p>
       </ion-col>
     </ion-row>
 
-    <ion-row class="avaliacoes" (click)="onOpenPDF()">
-        <ion-col col-4>
-        <img src="/assets/imgs/manual.png" >
+    <ion-row class="icones-baixos">
+      <ion-col col-4  (click)="onOpenPDF()"  class="avaliacoess">
+        <img src="/assets/imgs/manual.png"><br>
+        <p class="avaliacoes-titulo">MANUAL</p>
       </ion-col>
-      <ion-col col-8 class="avaliacoes-titulo">
-        <p>MANUAL</p>
-      </ion-col>
-    </ion-row>
 
-    <ion-row class="avaliacoes" (click)='about()'>
-      <ion-col col-4>
-        <img src="/assets/imgs/about.png" >
+      <ion-col col-4  (click)='about()' class="avaliacoess">
+        <img src="/assets/imgs/about.png"><br>
+        <p class="avaliacoes-titulo">SOBRE</p>
       </ion-col>
-      <ion-col col-8 class="avaliacoes-titulo">
-        <p>SOBRE O APP</p>
-      </ion-col>
-    </ion-row>
 
-    <ion-row class="avaliacoes" (click)="sair()">
-      <ion-col col-4>
-        <img src="/assets/imgs/sair.png" >
-      </ion-col>
-      <ion-col col-8 class="avaliacoes-titulo">
+      <ion-col col-4  (click)="sair()" class="avaliacoess">
+        <img src="/assets/imgs/sair.png"><br>
         <p>SAIR</p>
       </ion-col>
     </ion-row>
+
 
   </ion-grid>
 </ion-content>

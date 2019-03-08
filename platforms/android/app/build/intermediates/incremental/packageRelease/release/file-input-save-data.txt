@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Feb 24 17:36:05 BRT 2019
+#Thu Mar 07 21:54:56 BRT 2019
 122.file=C\:\\apps\\4spa\\platforms\\android\\app\\build\\intermediates\\assets\\release\\www\\assets\\fonts\\roboto-bold.woff2
 60.set=ASSET
 129.file=C\:\\apps\\4spa\\platforms\\android\\app\\build\\intermediates\\assets\\release\\www\\build\\vendor.js.map

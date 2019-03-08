@@ -4,14 +4,59 @@ webpackJsonp([26],{
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the AboutPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var AboutPage = /** @class */ (function () {
+    function AboutPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    AboutPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad AboutPage');
+    };
+    AboutPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-about',template:/*ion-inline-start:"C:\apps\4spa\src\pages\about\about.html"*/'<!--\nGenerated template for the AboutPage page.\n\nSee http://ionicframework.com/docs/components/#navigation for more info on\nIonic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Sobre o 4SPA</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-item>\n    <img src="/assets/imgs/4spa-logo.png">\n    <h3>4SPA - School Physical Assessment</h3>\n  </ion-item>\n\n  <ion-card>\n\n\n    <ion-card-content class="sobre">\n     O 4SPA - School Physical Assessement ( Para Avaliação de Escolas ) é um aplicativo\n     desenvlovido no curso de Mestrado em Saúde da Criança e do Adolescente da UECE - \n     Universidade Estadual do Ceará. Tem como objetivo avaliar os níveis de aptidão \n     física relacionada a saúde de crianças e adolescentes de maneira simples e eficiente.\n     O app tem a capacidade de avaliar e classificar os escolares em zona saudável e zona de risco a saúde\n     utilizando valores críticos e pontos de corte estabelecidos pelo PROESP-BR (Projeto Esporte Brasil).<Br>\n      Além de possibiliar o acesso de seus resultados em tabelas e gráficos gerados automaticamente, proporcionando mais agilidade eficácia e segurança em suas pesquisas.\n      O app é recomendado para profissionais e acadêmicos da saúde e educação que desenvolvam trabalhos ou pesquisas referentes a aptidão física relacionada a saúde de crianças \n      e adolescentes em escolas, clubes, projetos esportivos e lugares afins.<br><br>\n\n      <strong>Idealizador</strong><br>\n      Rangel L. Penha\n      <br><br>\n      <strong>Desenvolvedor</strong><br>\n      Erlânio Freire\n    </ion-card-content>\n\n  </ion-card>\n</ion-content>\n'/*ion-inline-end:"C:\apps\4spa\src\pages\about\about.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
+    ], AboutPage);
+    return AboutPage;
+}());
+
+//# sourceMappingURL=about.js.map
+
+/***/ }),
+
+/***/ 106:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InicioPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__escola_inicio_escola_inicio__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__about_about__ = __webpack_require__(174);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__turmas_turmas__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__about_about__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__turmas_turmas__ = __webpack_require__(107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_in_app_browser__ = __webpack_require__(99);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_storage__ = __webpack_require__(152);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_storage__ = __webpack_require__(153);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -84,7 +129,7 @@ var InicioPage = /** @class */ (function () {
     };
     InicioPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-inicio',template:/*ion-inline-start:"C:\apps\4spa\src\pages\inicio\inicio.html"*/'<!--\nGenerated template for the InicioPage page.\n\nSee http://ionicframework.com/docs/components/#navigation for more info on\nIonic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Seleciona uma opção</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n\n  <ion-grid>\n\n    <ion-row class="avaliacoes"  (click)=\'avaliacoes()\'>\n      <ion-col col-4>\n        <img src="/assets/imgs/logo-avaliacao-new.png">\n      </ion-col>\n      <ion-col col-8 class="avaliacoes-titulo">\n        <p>AVALIAÇÕES</p>\n      </ion-col>\n    </ion-row>\n\n    <ion-row class="avaliacoes" (click)="onOpenPDF()">\n        <ion-col col-4>\n        <img src="/assets/imgs/manual.png" >\n      </ion-col>\n      <ion-col col-8 class="avaliacoes-titulo">\n        <p>MANUAL</p>\n      </ion-col>\n    </ion-row>\n\n    <ion-row class="avaliacoes" (click)=\'about()\'>\n      <ion-col col-4>\n        <img src="/assets/imgs/about.png" >\n      </ion-col>\n      <ion-col col-8 class="avaliacoes-titulo">\n        <p>SOBRE O APP</p>\n      </ion-col>\n    </ion-row>\n\n    <ion-row class="avaliacoes" (click)="sair()">\n      <ion-col col-4>\n        <img src="/assets/imgs/sair.png" >\n      </ion-col>\n      <ion-col col-8 class="avaliacoes-titulo">\n        <p>SAIR</p>\n      </ion-col>\n    </ion-row>\n\n  </ion-grid>\n</ion-content>\n'/*ion-inline-end:"C:\apps\4spa\src\pages\inicio\inicio.html"*/,
+            selector: 'page-inicio',template:/*ion-inline-start:"C:\apps\4spa\src\pages\inicio\inicio.html"*/'<!--\nGenerated template for the InicioPage page.\n\nSee http://ionicframework.com/docs/components/#navigation for more info on\nIonic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Seleciona uma opção</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n\n  <ion-grid>\n\n    <ion-row class="avaliacoes" (click)=\'avaliacoes()\'>\n      <ion-col col-4></ion-col>\n      <ion-col col-4>\n        <img src="/assets/imgs/logo-avaliacao-new.png">\n      </ion-col>\n      <ion-col col-4></ion-col>\n\n      <ion-col col-12 class="avaliacoes-titulo">\n        <p>AVALIAÇÕES</p>\n      </ion-col>\n    </ion-row>\n\n    <ion-row class="icones-baixos">\n      <ion-col col-4  (click)="onOpenPDF()"  class="avaliacoess">\n        <img src="/assets/imgs/manual.png"><br>\n        <p class="avaliacoes-titulo">MANUAL</p>\n      </ion-col>\n\n      <ion-col col-4  (click)=\'about()\' class="avaliacoess">\n        <img src="/assets/imgs/about.png"><br>\n        <p class="avaliacoes-titulo">SOBRE</p>\n      </ion-col>\n\n      <ion-col col-4  (click)="sair()" class="avaliacoess">\n        <img src="/assets/imgs/sair.png"><br>\n        <p>SAIR</p>\n      </ion-col>\n    </ion-row>\n\n\n  </ion-grid>\n</ion-content>'/*ion-inline-end:"C:\apps\4spa\src\pages\inicio\inicio.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* Platform */], __WEBPACK_IMPORTED_MODULE_6__ionic_storage__["b" /* Storage */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */], __WEBPACK_IMPORTED_MODULE_5__ionic_native_in_app_browser__["a" /* InAppBrowser */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* MenuController */]])
     ], InicioPage);
@@ -95,7 +140,7 @@ var InicioPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 106:
+/***/ 107:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -179,20 +224,20 @@ var TurmasPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 151:
+/***/ 152:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__inicio_inicio__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__inicio_inicio__ = __webpack_require__(106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__cadastro_cadastro__ = __webpack_require__(192);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__turmas_turmas__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__turmas_turmas__ = __webpack_require__(107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_http__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_storage__ = __webpack_require__(152);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_storage__ = __webpack_require__(153);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -293,51 +338,6 @@ var HomePage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=home.js.map
-
-/***/ }),
-
-/***/ 174:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the AboutPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var AboutPage = /** @class */ (function () {
-    function AboutPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    AboutPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad AboutPage');
-    };
-    AboutPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-about',template:/*ion-inline-start:"C:\apps\4spa\src\pages\about\about.html"*/'<!--\nGenerated template for the AboutPage page.\n\nSee http://ionicframework.com/docs/components/#navigation for more info on\nIonic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Sobre o 4SPA</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-item>\n    <img src="/assets/imgs/logo.jpg">\n    <h3>4SPA - School Physical Assessment</h3>\n  </ion-item>\n\n  <ion-card>\n\n\n    <ion-card-content class="sobre">\n      Este aplicativo contém orientações destinadas a vocês, famílias e cuidadores de crianças. <br>\n      O objetivo é servir de apoio no entendimento do processo saúde-doença da criança no ambiente domiciliar, assim como auxiliar no manejo correto dos problemas clínicos mais comuns nessa faixa etária e subsidiar a tomada de decisões pelos responsáveis.\n    <br>  As orientações são no intuito de racionalizar a utilização de medidas não-farmacológicas com evidências clínicas comprovadas na literatura científica e os cuidados com as medicações que mesmo isentas de prescrições não são isentas de riscos.\n    <br>  É importante que os responsáveis utilizem esse material para reconhecer sinais de alerta e procurar atendimento médico como também tranquilizar-se frente a problemas de saúde sem sinais de localização.\n    <br>  É igualmente importante, para o alcance do restabelecimento da saúde da criança, o fortalecimento das competências familiares para a continuidade do tratamento e do cuidado dela nos espaços de convivência familiar e comunitário.\n    <br>  Então, vamos conhecer o que fazer frente as principais enfermidades da criança?\n\n    </ion-card-content>\n\n  </ion-card>\n</ion-content>\n'/*ion-inline-end:"C:\apps\4spa\src\pages\about\about.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
-    ], AboutPage);
-    return AboutPage;
-}());
-
-//# sourceMappingURL=about.js.map
 
 /***/ }),
 
@@ -1741,9 +1741,9 @@ var ValoresAfrsPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_pdfmake_build_pdfmake__ = __webpack_require__(147);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_pdfmake_build_pdfmake__ = __webpack_require__(148);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_pdfmake_build_pdfmake___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_pdfmake_build_pdfmake__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_pdfmake_build_vfs_fonts__ = __webpack_require__(148);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_pdfmake_build_vfs_fonts__ = __webpack_require__(149);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_pdfmake_build_vfs_fonts___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_pdfmake_build_vfs_fonts__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_file__ = __webpack_require__(97);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_file_opener__ = __webpack_require__(98);
@@ -1968,13 +1968,13 @@ var TblzonariscoPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_pdfmake_build_pdfmake__ = __webpack_require__(147);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_pdfmake_build_pdfmake__ = __webpack_require__(148);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_pdfmake_build_pdfmake___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_pdfmake_build_pdfmake__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_pdfmake_build_vfs_fonts__ = __webpack_require__(148);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_pdfmake_build_vfs_fonts__ = __webpack_require__(149);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_pdfmake_build_vfs_fonts___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_pdfmake_build_vfs_fonts__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_file__ = __webpack_require__(97);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_file_opener__ = __webpack_require__(98);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_social_sharing__ = __webpack_require__(150);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_social_sharing__ = __webpack_require__(151);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2435,7 +2435,7 @@ var GrafgeralPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CadastroPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(151);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(152);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs__);
@@ -2575,15 +2575,15 @@ var map = {
 		17
 	],
 	"../pages/edit-escola/edit-escola.module": [
-		936,
+		922,
 		16
 	],
 	"../pages/edit-turma/edit-turma.module": [
-		922,
+		923,
 		15
 	],
 	"../pages/escola-inicio/escola-inicio.module": [
-		923,
+		924,
 		14
 	],
 	"../pages/grafcardio/grafcardio.module": [
@@ -2591,15 +2591,15 @@ var map = {
 		13
 	],
 	"../pages/grafgeral/grafgeral.module": [
-		924,
+		926,
 		12
 	],
 	"../pages/grafosteo/grafosteo.module": [
-		926,
+		927,
 		11
 	],
 	"../pages/inicio/inicio.module": [
-		927,
+		928,
 		10
 	],
 	"../pages/lista-avaliacoes/lista-avaliacoes.module": [
@@ -2607,35 +2607,35 @@ var map = {
 		9
 	],
 	"../pages/listar-alunos/listar-alunos.module": [
-		928,
+		929,
 		8
 	],
 	"../pages/manual/manual.module": [
-		929,
+		930,
 		7
 	],
 	"../pages/relatorio-turmas/relatorio-turmas.module": [
-		930,
+		931,
 		6
 	],
 	"../pages/tblunificada/tblunificada.module": [
-		931,
+		932,
 		5
 	],
 	"../pages/tblzonarisco/tblzonarisco.module": [
-		932,
+		933,
 		4
 	],
 	"../pages/turmas-details/turmas-details.module": [
-		933,
+		934,
 		3
 	],
 	"../pages/turmas/turmas.module": [
-		934,
+		935,
 		2
 	],
 	"../pages/valores-afrs/valores-afrs.module": [
-		935,
+		936,
 		1
 	]
 };
@@ -2730,13 +2730,13 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(850);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_http__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_home_home__ = __webpack_require__(151);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_home_home__ = __webpack_require__(152);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_list_list__ = __webpack_require__(851);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_inicio_inicio__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_inicio_inicio__ = __webpack_require__(106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_escola_inicio_escola_inicio__ = __webpack_require__(77);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_add_escola_add_escola__ = __webpack_require__(180);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_edit_escola_edit_escola__ = __webpack_require__(181);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_turmas_turmas__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_turmas_turmas__ = __webpack_require__(107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_turmas_details_turmas_details__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_add_turma_add_turma__ = __webpack_require__(182);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_edit_turma_edit_turma__ = __webpack_require__(183);
@@ -2756,7 +2756,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_manual_manual__ = __webpack_require__(519);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__pages_pdf_viewer_pdf_viewer__ = __webpack_require__(852);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pages_grafgeral_grafgeral__ = __webpack_require__(191);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pages_about_about__ = __webpack_require__(174);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pages_about_about__ = __webpack_require__(105);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pages_cadastro_cadastro__ = __webpack_require__(192);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__ionic_native_status_bar__ = __webpack_require__(383);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__ionic_native_splash_screen__ = __webpack_require__(384);
@@ -2768,8 +2768,8 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_39_ng2_pdf_viewer__ = __webpack_require__(899);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__ionic_native_in_app_browser__ = __webpack_require__(99);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__ionic_native_file_opener__ = __webpack_require__(98);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__ionic_storage__ = __webpack_require__(152);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__ionic_native_social_sharing__ = __webpack_require__(150);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__ionic_storage__ = __webpack_require__(153);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__ionic_native_social_sharing__ = __webpack_require__(151);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2870,10 +2870,11 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/cadastro/cadastro.module#CadastroPageModule', name: 'CadastroPage', segment: 'cadastro', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/componentesafrs/componentesafrs.module#ComponentesafrsPageModule', name: 'ComponentesafrsPage', segment: 'componentesafrs', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/edit-aluno/edit-aluno.module#EditAlunoPageModule', name: 'EditAlunoPage', segment: 'edit-aluno', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/edit-escola/edit-escola.module#EditEscolaPageModule', name: 'EditEscolaPage', segment: 'edit-escola', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/edit-turma/edit-turma.module#EditTurmaPageModule', name: 'EditTurmaPage', segment: 'edit-turma', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/escola-inicio/escola-inicio.module#EscolaInicioPageModule', name: 'EscolaInicioPage', segment: 'escola-inicio', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/grafgeral/grafgeral.module#GrafgeralPageModule', name: 'GrafgeralPage', segment: 'grafgeral', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/grafcardio/grafcardio.module#GrafcardioPageModule', name: 'GrafcardioPage', segment: 'grafcardio', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/grafgeral/grafgeral.module#GrafgeralPageModule', name: 'GrafgeralPage', segment: 'grafgeral', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/grafosteo/grafosteo.module#GrafosteoPageModule', name: 'GrafosteoPage', segment: 'grafosteo', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/inicio/inicio.module#InicioPageModule', name: 'InicioPage', segment: 'inicio', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/listar-alunos/listar-alunos.module#ListarAlunosPageModule', name: 'ListarAlunosPage', segment: 'listar-alunos', priority: 'low', defaultHistory: [] },
@@ -2884,7 +2885,6 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/turmas-details/turmas-details.module#TurmasDetailsPageModule', name: 'TurmasDetailsPage', segment: 'turmas-details', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/turmas/turmas.module#TurmasPageModule', name: 'TurmasPage', segment: 'turmas', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/valores-afrs/valores-afrs.module#ValoresAfrsPageModule', name: 'ValoresAfrsPage', segment: 'valores-afrs', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/edit-escola/edit-escola.module#EditEscolaPageModule', name: 'EditEscolaPage', segment: 'edit-escola', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/edit-avaliacao/edit-avaliacao.module#EditAvaliacaoPageModule', name: 'EditAvaliacaoPage', segment: 'edit-avaliacao', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/lista-avaliacoes/lista-avaliacoes.module#ListaAvaliacoesPageModule', name: 'ListaAvaliacoesPage', segment: 'lista-avaliacoes', priority: 'low', defaultHistory: [] }
                     ]
@@ -3217,13 +3217,13 @@ var TurmasDetailsPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_http__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_pdfmake_build_pdfmake__ = __webpack_require__(147);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_pdfmake_build_pdfmake__ = __webpack_require__(148);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_pdfmake_build_pdfmake___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_pdfmake_build_pdfmake__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_pdfmake_build_vfs_fonts__ = __webpack_require__(148);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_pdfmake_build_vfs_fonts__ = __webpack_require__(149);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_pdfmake_build_vfs_fonts___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_pdfmake_build_vfs_fonts__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_file__ = __webpack_require__(97);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_file_opener__ = __webpack_require__(98);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_social_sharing__ = __webpack_require__(150);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_social_sharing__ = __webpack_require__(151);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3682,8 +3682,9 @@ var EscolaInicioPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(383);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(384);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(151);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_inicio_inicio__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(152);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_inicio_inicio__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_about_about__ = __webpack_require__(105);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3693,6 +3694,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 
@@ -3709,6 +3711,7 @@ var MyApp = /** @class */ (function () {
         // used for an example of ngFor and navigation
         this.pages = [
             { title: 'Inicio', component: __WEBPACK_IMPORTED_MODULE_5__pages_inicio_inicio__["a" /* InicioPage */] },
+            { title: 'Sobre', component: __WEBPACK_IMPORTED_MODULE_6__pages_about_about__["a" /* AboutPage */] },
         ];
     }
     MyApp.prototype.initializeApp = function () {

@@ -4,14 +4,59 @@ webpackJsonp([26],{
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the AboutPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var AboutPage = /** @class */ (function () {
+    function AboutPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    AboutPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad AboutPage');
+    };
+    AboutPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-about',template:/*ion-inline-start:"C:\apps\4spa\src\pages\about\about.html"*/'<!--\nGenerated template for the AboutPage page.\n\nSee http://ionicframework.com/docs/components/#navigation for more info on\nIonic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Sobre o 4SPA</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-item>\n    <img src="/assets/imgs/4spa-logo.png">\n    <h3>4SPA - School Physical Assessment</h3>\n  </ion-item>\n\n  <ion-card>\n\n\n    <ion-card-content class="sobre">\n     O 4SPA - School Physical Assessement ( Para Avaliação de Escolas ) é um aplicativo\n     desenvlovido no curso de Mestrado em Saúde da Criança e do Adolescente da UECE - \n     Universidade Estadual do Ceará. Tem como objetivo avaliar os níveis de aptidão \n     física relacionada a saúde de crianças e adolescentes de maneira simples e eficiente.\n     O app tem a capacidade de avaliar e classificar os escolares em zona saudável e zona de risco a saúde\n     utilizando valores críticos e pontos de corte estabelecidos pelo PROESP-BR (Projeto Esporte Brasil).<Br>\n      Além de possibiliar o acesso de seus resultados em tabelas e gráficos gerados automaticamente, proporcionando mais agilidade eficácia e segurança em suas pesquisas.\n      O app é recomendado para profissionais e acadêmicos da saúde e educação que desenvolvam trabalhos ou pesquisas referentes a aptidão física relacionada a saúde de crianças \n      e adolescentes em escolas, clubes, projetos esportivos e lugares afins.<br><br>\n\n      <strong>Idealizador</strong><br>\n      Rangel L. Penha\n      <br><br>\n      <strong>Desenvolvedor</strong><br>\n      Erlânio Freire\n    </ion-card-content>\n\n  </ion-card>\n</ion-content>\n'/*ion-inline-end:"C:\apps\4spa\src\pages\about\about.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
+    ], AboutPage);
+    return AboutPage;
+}());
+
+//# sourceMappingURL=about.js.map
+
+/***/ }),
+
+/***/ 106:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InicioPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__escola_inicio_escola_inicio__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__about_about__ = __webpack_require__(189);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__turmas_turmas__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__about_about__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__turmas_turmas__ = __webpack_require__(107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_in_app_browser__ = __webpack_require__(99);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_storage__ = __webpack_require__(152);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_storage__ = __webpack_require__(153);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -84,7 +129,7 @@ var InicioPage = /** @class */ (function () {
     };
     InicioPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-inicio',template:/*ion-inline-start:"C:\apps\4spa\src\pages\inicio\inicio.html"*/'<!--\nGenerated template for the InicioPage page.\n\nSee http://ionicframework.com/docs/components/#navigation for more info on\nIonic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Seleciona uma opção</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n\n  <ion-grid>\n\n    <ion-row class="avaliacoes"  (click)=\'avaliacoes()\'>\n      <ion-col col-4>\n        <img src="/assets/imgs/logo-avaliacao-new.png">\n      </ion-col>\n      <ion-col col-8 class="avaliacoes-titulo">\n        <p>AVALIAÇÕES</p>\n      </ion-col>\n    </ion-row>\n\n    <ion-row class="avaliacoes" (click)="onOpenPDF()">\n        <ion-col col-4>\n        <img src="/assets/imgs/manual.png" >\n      </ion-col>\n      <ion-col col-8 class="avaliacoes-titulo">\n        <p>MANUAL</p>\n      </ion-col>\n    </ion-row>\n\n    <ion-row class="avaliacoes" (click)=\'about()\'>\n      <ion-col col-4>\n        <img src="/assets/imgs/about.png" >\n      </ion-col>\n      <ion-col col-8 class="avaliacoes-titulo">\n        <p>SOBRE O APP</p>\n      </ion-col>\n    </ion-row>\n\n    <ion-row class="avaliacoes" (click)="sair()">\n      <ion-col col-4>\n        <img src="/assets/imgs/sair.png" >\n      </ion-col>\n      <ion-col col-8 class="avaliacoes-titulo">\n        <p>SAIR</p>\n      </ion-col>\n    </ion-row>\n\n  </ion-grid>\n</ion-content>\n'/*ion-inline-end:"C:\apps\4spa\src\pages\inicio\inicio.html"*/,
+            selector: 'page-inicio',template:/*ion-inline-start:"C:\apps\4spa\src\pages\inicio\inicio.html"*/'<!--\nGenerated template for the InicioPage page.\n\nSee http://ionicframework.com/docs/components/#navigation for more info on\nIonic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Seleciona uma opção</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n\n  <ion-grid>\n\n    <ion-row class="avaliacoes" (click)=\'avaliacoes()\'>\n      <ion-col col-4></ion-col>\n      <ion-col col-4>\n        <img src="/assets/imgs/logo-avaliacao-new.png">\n      </ion-col>\n      <ion-col col-4></ion-col>\n\n      <ion-col col-12 class="avaliacoes-titulo">\n        <p>AVALIAÇÕES</p>\n      </ion-col>\n    </ion-row>\n\n    <ion-row class="icones-baixos">\n      <ion-col col-4  (click)="onOpenPDF()"  class="avaliacoess">\n        <img src="/assets/imgs/manual.png"><br>\n        <p class="avaliacoes-titulo">MANUAL</p>\n      </ion-col>\n\n      <ion-col col-4  (click)=\'about()\' class="avaliacoess">\n        <img src="/assets/imgs/about.png"><br>\n        <p class="avaliacoes-titulo">SOBRE</p>\n      </ion-col>\n\n      <ion-col col-4  (click)="sair()" class="avaliacoess">\n        <img src="/assets/imgs/sair.png"><br>\n        <p>SAIR</p>\n      </ion-col>\n    </ion-row>\n\n\n  </ion-grid>\n</ion-content>'/*ion-inline-end:"C:\apps\4spa\src\pages\inicio\inicio.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* Platform */], __WEBPACK_IMPORTED_MODULE_6__ionic_storage__["b" /* Storage */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */], __WEBPACK_IMPORTED_MODULE_5__ionic_native_in_app_browser__["a" /* InAppBrowser */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* MenuController */]])
     ], InicioPage);
@@ -95,7 +140,7 @@ var InicioPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 106:
+/***/ 107:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -179,20 +224,20 @@ var TurmasPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 151:
+/***/ 152:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__inicio_inicio__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__inicio_inicio__ = __webpack_require__(106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__cadastro_cadastro__ = __webpack_require__(192);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__turmas_turmas__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__turmas_turmas__ = __webpack_require__(107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_http__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_storage__ = __webpack_require__(152);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_storage__ = __webpack_require__(153);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -296,7 +341,7 @@ var HomePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 174:
+/***/ 175:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -394,7 +439,7 @@ var AddAlunoPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 175:
+/***/ 176:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -517,7 +562,7 @@ var EditAlunoPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 177:
+/***/ 178:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -782,7 +827,7 @@ var AvaliacoesPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 178:
+/***/ 179:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1078,1095 +1123,7 @@ var EditAvaliacaoPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 179:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddTurmaPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__turmas_details_turmas_details__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs__);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-/**
- * Generated class for the AddTurmaPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var AddTurmaPage = /** @class */ (function () {
-    function AddTurmaPage(navCtrl, navParams, HttpCtrl, alertCtrl) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.HttpCtrl = HttpCtrl;
-        this.alertCtrl = alertCtrl;
-        this.API_URL = "http://cev.urca.br/treinamento/Api/";
-        this.id_escola = this.navParams.get('id_escola');
-        console.log(this.id_escola);
-    }
-    AddTurmaPage.prototype.salvarTurma = function () {
-        var _this = this;
-        if (this.codTurma == null) {
-            var alerta = this.alertCtrl.create({
-                title: '<p>Ops!</p>',
-                subTitle: '<p>Preencha todos os dados para continuar!</p>',
-                buttons: ['OK']
-            });
-            alerta.present();
-        }
-        else {
-            this.HttpCtrl.get(this.API_URL + 'adicionarTurma?id_escola=' + this.id_escola + '&codTurma=' + this.codTurma)
-                .map(function (res) { return res.json(); })
-                .subscribe(function (data) {
-                if (data == true) {
-                    var alerta = _this.alertCtrl.create({
-                        title: '<p>Atenção!</p>',
-                        subTitle: '<p>Turma cadastra com sucesso!</p>',
-                        buttons: ['OK']
-                    });
-                    alerta.present();
-                    _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__turmas_details_turmas_details__["a" /* TurmasDetailsPage */], {
-                        'id_escola': _this.id_escola,
-                    });
-                }
-                else {
-                    var alerta = _this.alertCtrl.create({
-                        title: '<p>Ops!</p>',
-                        subTitle: '<p>' + data + '</p>',
-                        buttons: ['OK']
-                    });
-                    alerta.present();
-                }
-            });
-        }
-    };
-    AddTurmaPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-add-turma',template:/*ion-inline-start:"C:\apps\4spa\src\pages\add-turma\add-turma.html"*/'<!--\nGenerated template for the AddTurmaPage page.\n\nSee http://ionicframework.com/docs/components/#navigation for more info on\nIonic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Adicionar Turma</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-list>\n\n    <ion-item>\n      <ion-label color="primary" floating>Código da Turma</ion-label>\n      <ion-input [(ngModel)]="codTurma"></ion-input>\n    </ion-item>\n\n    <br>\n    <button ion-button full (click)="salvarTurma();">Salvar</button>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"C:\apps\4spa\src\pages\add-turma\add-turma.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Http */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
-    ], AddTurmaPage);
-    return AddTurmaPage;
-}());
-
-//# sourceMappingURL=add-turma.js.map
-
-/***/ }),
-
 /***/ 180:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EditTurmaPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__turmas_details_turmas_details__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs__);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-/**
-* Generated class for the EditTurmaPage page.
-*
-* See https://ionicframework.com/docs/components/#navigation for more info on
-* Ionic pages and navigation.
-*/
-var EditTurmaPage = /** @class */ (function () {
-    function EditTurmaPage(navCtrl, navParams, HttpCtrl, alertCtrl) {
-        var _this = this;
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.HttpCtrl = HttpCtrl;
-        this.alertCtrl = alertCtrl;
-        this.API_URL = "http://cev.urca.br/treinamento/Api/";
-        this.id_turma = this.navParams.get('id_turma');
-        this.HttpCtrl.get(this.API_URL + 'editTurma?id=' + this.id_turma)
-            .map(function (res) { return res.json(); })
-            .subscribe(function (data) {
-            _this.turma = data;
-            _this.codTurma = _this.turma[0]['cod_turma'];
-            _this.id_escola = _this.turma[0]['id_escola'];
-        });
-    }
-    EditTurmaPage.prototype.salvarTurmaEdicao = function () {
-        var _this = this;
-        this.HttpCtrl.get(this.API_URL + 'salvarEditTurma?id_turma=' + this.id_turma + '&codTurma=' + this.codTurma + '&id_escola=' + this.id_escola)
-            .map(function (res) { return res.json(); })
-            .subscribe(function (data) {
-            if (data == true) {
-                var alerta = _this.alertCtrl.create({
-                    title: '<p>Atenção!</p>',
-                    subTitle: '<p>Turma alterada com sucesso!</p>',
-                    buttons: ['OK']
-                });
-                alerta.present();
-                _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__turmas_details_turmas_details__["a" /* TurmasDetailsPage */], {
-                    'id_escola': _this.id_escola,
-                });
-            }
-            else {
-                var alerta = _this.alertCtrl.create({
-                    title: '<p>Ops!</p>',
-                    subTitle: '<p>' + data + '</p>',
-                    buttons: ['OK']
-                });
-                alerta.present();
-            }
-        });
-    };
-    EditTurmaPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-edit-turma',template:/*ion-inline-start:"C:\apps\4spa\src\pages\edit-turma\edit-turma.html"*/'<!--\n  Generated template for the EditTurmaPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Editar Turma</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-list>\n\n    <ion-item>\n      <ion-label color="primary" floating>Código da Turma</ion-label>\n      <ion-input [(ngModel)]="codTurma"></ion-input>\n    </ion-item>\n\n    <br>\n    <button ion-button full (click)="salvarTurmaEdicao();">Salvar Alterações</button>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"C:\apps\4spa\src\pages\edit-turma\edit-turma.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Http */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
-    ], EditTurmaPage);
-    return EditTurmaPage;
-}());
-
-//# sourceMappingURL=edit-turma.js.map
-
-/***/ }),
-
-/***/ 181:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RelatorioTurmasPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__valores_afrs_valores_afrs__ = __webpack_require__(182);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__componentesafrs_componentesafrs__ = __webpack_require__(183);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__tblzonarisco_tblzonarisco__ = __webpack_require__(184);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__tblunificada_tblunificada__ = __webpack_require__(185);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__grafcardio_grafcardio__ = __webpack_require__(186);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__grafosteo_grafosteo__ = __webpack_require__(187);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__grafgeral_grafgeral__ = __webpack_require__(188);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-
-
-
-/**
- * Generated class for the RelatorioTurmasPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var RelatorioTurmasPage = /** @class */ (function () {
-    function RelatorioTurmasPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.id_turma = this.navParams.get('id_turma');
-    }
-    RelatorioTurmasPage.prototype.valoresAFRS = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__valores_afrs_valores_afrs__["a" /* ValoresAfrsPage */], {
-            'id_turma': this.id_turma,
-        });
-    };
-    RelatorioTurmasPage.prototype.componentesAFRS = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__componentesafrs_componentesafrs__["a" /* ComponentesafrsPage */], {
-            'id_turma': this.id_turma,
-        });
-    };
-    RelatorioTurmasPage.prototype.tblZonaRisco = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__tblzonarisco_tblzonarisco__["a" /* TblzonariscoPage */], {
-            'id_turma': this.id_turma,
-        });
-    };
-    RelatorioTurmasPage.prototype.tblunificada = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_5__tblunificada_tblunificada__["a" /* TblunificadaPage */], {
-            'id_turma': this.id_turma,
-        });
-    };
-    RelatorioTurmasPage.prototype.grafCardio = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_6__grafcardio_grafcardio__["a" /* GrafcardioPage */], {
-            'id_turma': this.id_turma,
-        });
-    };
-    RelatorioTurmasPage.prototype.grafGeral = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_8__grafgeral_grafgeral__["a" /* GrafgeralPage */], {
-            'id_turma': this.id_turma,
-        });
-    };
-    RelatorioTurmasPage.prototype.grafOsteo = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_7__grafosteo_grafosteo__["a" /* GrafosteoPage */], {
-            'id_turma': this.id_turma,
-        });
-    };
-    RelatorioTurmasPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-relatorio-turmas',template:/*ion-inline-start:"C:\apps\4spa\src\pages\relatorio-turmas\relatorio-turmas.html"*/'<!--\nGenerated template for the RelatorioTurmasPage page.\n\nSee http://ionicframework.com/docs/components/#navigation for more info on\nIonic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar>\n    <ion-title>Relatórios Turma</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n  <ion-grid>\n    <ion-row class="relatorios-itens" (click)=\'valoresAFRS()\'>\n      <ion-col col-4>\n        <img src="/assets/imgs/apt-fisica-componentes.jpg">\n      </ion-col>\n      <ion-col col-8>\n        <p>Tabela de Valores de Componentes da Aptidão Física Relacionados a Saúde</p>\n      </ion-col>\n      <!--  <ion-col col-6>\n      <img src="/assets/imgs/apt-fisica.jpg" (click)=\'componentesAFRS()\'>\n      <p>Tabela de Classificação de\n      Componentes da Aptidão Física Relacionados a Saúde</p>\n    </ion-col>\n    <ion-col col-4>\n    <img src="/assets/imgs/tblunificada.png"  (click)=\'tblunificada()\'>\n    <p>Tabela Unificada de Componentes de Aptidão Física e Zona de Riscos</p>\n  </ion-col>\n  <ion-col col-2></ion-col>-->\n\n</ion-row>\n\n<ion-row (click)=\'tblunificada()\' class="relatorios-itens">\n  <ion-col col-4>\n    <img src="/assets/imgs/tblunificada.png">\n  </ion-col>\n  <ion-col col-8>\n    <p>Tabela Unificada de Componentes de Aptidão Física e Zona de Riscos</p>\n  </ion-col>\n</ion-row>\n\n\n\n<ion-row (click)=\'grafCardio()\' class="relatorios-itens">\n  <ion-col col-4>\n    <img src="/assets/imgs/grafico.png">\n  </ion-col>\n  <ion-col col-8>\n    <p>Gráfico ZR Cardiometabólica por sexo</p>\n  </ion-col>\n</ion-row>\n\n\n<ion-row (click)=\'grafOsteo()\' class="relatorios-itens">\n  <ion-col col-4>\n    <img src="/assets/imgs/grafico.png" >\n  </ion-col>\n  <ion-col col-8>\n    <p>Gráfico ZR Osteomusculares por sexo</p>\n  </ion-col>\n</ion-row>\n\n<ion-row (click)=\'grafGeral()\' class="relatorios-itens">\n  <ion-col col-4>\n    <img src="/assets/imgs/grafico.png" >\n  </ion-col>\n  <ion-col col-8>\n    <p>Gráfico Geral</p>\n  </ion-col>\n</ion-row>\n\n\n</ion-grid>\n</ion-content>\n'/*ion-inline-end:"C:\apps\4spa\src\pages\relatorio-turmas\relatorio-turmas.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
-    ], RelatorioTurmasPage);
-    return RelatorioTurmasPage;
-}());
-
-//# sourceMappingURL=relatorio-turmas.js.map
-
-/***/ }),
-
-/***/ 182:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ValoresAfrsPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs__);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-/**
-* Generated class for the ValoresAfrsPage page.
-*
-* See https://ionicframework.com/docs/components/#navigation for more info on
-* Ionic pages and navigation.
-*/
-var ValoresAfrsPage = /** @class */ (function () {
-    function ValoresAfrsPage(navCtrl, navParams, HttpCtrl, alertCtrl) {
-        var _this = this;
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.HttpCtrl = HttpCtrl;
-        this.alertCtrl = alertCtrl;
-        this.API_URL = "http://cev.urca.br/treinamento/Api/";
-        this.pdfObj = null;
-        this.id_turma = this.navParams.get('id_turma');
-        this.HttpCtrl.get(this.API_URL + 'valoresAFRS?id_turma=' + this.id_turma)
-            .map(function (res) { return res.json(); })
-            .subscribe(function (data) {
-            console.log(data);
-            if (data != "") {
-                _this.avaliacoes = data;
-                _this.escola = _this.avaliacoes[0].nome_escola;
-                _this.codTurma = _this.avaliacoes[0].cod_turma;
-            }
-            else {
-                var alerta = _this.alertCtrl.create({
-                    title: '<p>Atenção!</p>',
-                    subTitle: '<p>Não existe nenhum avaliação para esta turma!</p>',
-                    buttons: ['OK']
-                });
-                alerta.present();
-            }
-        });
-    }
-    ValoresAfrsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-valores-afrs',template:/*ion-inline-start:"C:\apps\4spa\src\pages\valores-afrs\valores-afrs.html"*/'<!--\nGenerated template for the ValoresAfrsPage page.\n\nSee http://ionicframework.com/docs/components/#navigation for more info on\nIonic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>ValoresAFRS</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-list class="aluno-list">\n    <ion-item class="nome-aluno">\n      <strong>{{this.escola}}</strong>\n      <p>{{this.codTurma}}</p>\n    </ion-item>\n  </ion-list>\n\n  <ion-grid>\n    <ion-row>\n      <ion-col class="titulo" col-3>NOME</ion-col>\n      <ion-col class="titulo">IMC</ion-col>\n      <ion-col class="titulo">APCR</ion-col>\n      <ion-col class="titulo">FLEX</ion-col>\n      <ion-col class="titulo">RML</ion-col>\n    </ion-row>\n    <div *ngFor="let item of avaliacoes">\n      <ion-row>\n        <ion-col class="dados" col-3>{{ item.nome_estudante }}</ion-col>\n        <ion-col class="dados">{{ item.imc_avaliacao }}</ion-col>\n        <ion-col class="dados">{{ item.aptCardio }}</ion-col>\n        <ion-col class="dados">{{ item.flex_avaliacao }}</ion-col>\n        <ion-col class="dados">{{ item.resAbd_avaliacao }}</ion-col>\n      </ion-row>\n    </div>\n  </ion-grid>\n  <ion-fab bottom right >\n    <button ion-fab color="primary"><ion-icon name="options"></ion-icon></button>\n\n    <ion-fab-list side="left">\n      <a href="http://cev.urca.br/treinamento/api/valoresAFRSImpress?id_turma={{this.id_turma}}">\n        <button ion-fab color="primary"><ion-icon name="print"></ion-icon></button>\n      </a>\n\n    </ion-fab-list>\n  </ion-fab>\n</ion-content>\n'/*ion-inline-end:"C:\apps\4spa\src\pages\valores-afrs\valores-afrs.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
-    ], ValoresAfrsPage);
-    return ValoresAfrsPage;
-}());
-
-//# sourceMappingURL=valores-afrs.js.map
-
-/***/ }),
-
-/***/ 183:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ComponentesafrsPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_pdfmake_build_pdfmake__ = __webpack_require__(147);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_pdfmake_build_pdfmake___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_pdfmake_build_pdfmake__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_pdfmake_build_vfs_fonts__ = __webpack_require__(148);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_pdfmake_build_vfs_fonts___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_pdfmake_build_vfs_fonts__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_file__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_file_opener__ = __webpack_require__(98);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-
-__WEBPACK_IMPORTED_MODULE_4_pdfmake_build_pdfmake___default.a.vfs = __WEBPACK_IMPORTED_MODULE_5_pdfmake_build_vfs_fonts___default.a.pdfMake.vfs;
-
-
-/**
-* Generated class for the ComponentesafrsPage page.
-*
-* See https://ionicframework.com/docs/components/#navigation for more info on
-* Ionic pages and navigation.
-*/
-var ComponentesafrsPage = /** @class */ (function () {
-    function ComponentesafrsPage(navCtrl, navParams, HttpCtrl, alertCtrl, plt, file, fileOpener) {
-        var _this = this;
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.HttpCtrl = HttpCtrl;
-        this.alertCtrl = alertCtrl;
-        this.plt = plt;
-        this.file = file;
-        this.fileOpener = fileOpener;
-        this.pdfObj = null;
-        this.API_URL = "http://cev.urca.br/treinamento/Api/";
-        this.id_turma = this.navParams.get('id_turma');
-        console.log(this.id_turma);
-        this.HttpCtrl.get(this.API_URL + 'valoresAFRS?id_turma=' + this.id_turma)
-            .map(function (res) { return res.json(); })
-            .subscribe(function (data) {
-            console.log(data);
-            if (data != "") {
-                _this.avaliacoes = data;
-                _this.escola = _this.avaliacoes[0].nome_escola;
-                _this.codTurma = _this.avaliacoes[0].cod_turma;
-                _this.totalZRSIMC = _this.avaliacoes[0].totalZRSIMC;
-                _this.totalZRSaptCardio = _this.avaliacoes[0].totalZRSaptCardio;
-                _this.totaZRSFlex = _this.avaliacoes[0].totaZRSFlex;
-                _this.totaZRSResAB = _this.avaliacoes[0].totaZRSResAB;
-                _this.totalAvaliacoes = _this.avaliacoes[0].totalAvaliacoes;
-            }
-            else {
-                var alerta = _this.alertCtrl.create({
-                    title: '<p>Atenção!</p>',
-                    subTitle: '<p>Não existe nenhum avaliação para esta turma!</p>',
-                    buttons: ['OK']
-                });
-                alerta.present();
-            }
-        });
-    }
-    ComponentesafrsPage.prototype.createPdf = function () {
-        var docDefinition = {
-            content: [
-                { text: 'REMINDER', style: 'header' },
-                { text: new Date().toTimeString(), alignment: 'right' },
-                { text: 'From', style: 'subheader' },
-                { text: "this.letterObj.from" },
-                { text: 'To', style: 'subheader' },
-                'this.letterObj.to',
-                { text: 'this.letterObj.text', style: 'story', margin: [0, 20, 0, 20] },
-                {
-                    ul: [
-                        'Bacon',
-                        'Rips',
-                        'BBQ',
-                    ]
-                }
-            ],
-            styles: {
-                header: {
-                    fontSize: 18,
-                    bold: true,
-                },
-                subheader: {
-                    fontSize: 14,
-                    bold: true,
-                    margin: [0, 15, 0, 0]
-                },
-                story: {
-                    italic: true,
-                    alignment: 'center',
-                    width: '50%',
-                }
-            }
-        };
-        this.pdfObj = __WEBPACK_IMPORTED_MODULE_4_pdfmake_build_pdfmake___default.a.createPdf(docDefinition);
-        this.downloadPdf();
-    };
-    ComponentesafrsPage.prototype.downloadPdf = function () {
-        var _this = this;
-        if (this.plt.is('cordova')) {
-            this.pdfObj.getBuffer(function (buffer) {
-                var blob = new Blob([buffer], { type: 'application/pdf' });
-                // Save the PDF to the data Directory of our App
-                _this.file.writeFile(_this.file.dataDirectory, 'myletter.pdf', blob, { replace: true }).then(function (fileEntry) {
-                    // Open the PDf with the correct OS tools
-                    _this.fileOpener.open(_this.file.dataDirectory + 'myletter.pdf', 'application/pdf');
-                });
-            });
-        }
-        else {
-            // On a browser simply use download!
-            this.pdfObj.download();
-        }
-    };
-    ComponentesafrsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-componentesafrs',template:/*ion-inline-start:"C:\apps\4spa\src\pages\componentesafrs\componentesafrs.html"*/'<!--\nGenerated template for the ComponentesafrsPage page.\n\nSee http://ionicframework.com/docs/components/#navigation for more info on\nIonic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Componentes AFRS</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n\n\n  <ion-list class="aluno-list">\n    <ion-item class="nome-aluno">\n      <strong>{{this.escola}}</strong>\n      <p>{{this.codTurma}}</p>\n    </ion-item>\n  </ion-list>\n\n\n  <ion-grid>\n    <ion-row>\n      <ion-col class="titulo" col-3>Nome</ion-col>\n      <ion-col class="titulo">IMC</ion-col>\n      <ion-col class="titulo">APCR</ion-col>\n      <ion-col class="titulo">FLEX</ion-col>\n      <ion-col class="titulo">RML</ion-col>\n    </ion-row>\n    <div *ngFor="let item of avaliacoes">\n      <ion-row>\n        <ion-col class="dados" col-3>{{ item.nome_estudante }}</ion-col>\n        <ion-col class="dados">{{ item.imc_status }}</ion-col>\n        <ion-col class="dados">{{ item.aptCardio_status }}</ion-col>\n        <ion-col class="dados">{{ item.flex_status }}</ion-col>\n        <ion-col class="dados">{{ item.resAbd_status }}</ion-col>\n      </ion-row>\n    </div>\n\n    <ion-row>\n      <ion-col class="titulo" col-3>Total ZRS</ion-col>\n      <ion-col  class="dados">{{this.totalZRSIMC}}</ion-col>\n      <ion-col  class="dados">{{this.totalZRSaptCardio}}</ion-col>\n      <ion-col  class="dados">{{this.totaZRSFlex}}</ion-col>\n      <ion-col  class="dados">{{this.totaZRSResAB}}</ion-col>\n    </ion-row>\n\n    <ion-row>\n      <ion-col class="titulo" col-3>Total ZS</ion-col>\n      <ion-col  class="dados">{{this.totalAvaliacoes - this.totalZRSIMC}}</ion-col>\n      <ion-col  class="dados">{{this.totalAvaliacoes - this.totalZRSaptCardio}}</ion-col>\n      <ion-col  class="dados">{{this.totalAvaliacoes - this.totaZRSFlex}}</ion-col>\n      <ion-col  class="dados">{{this.totalAvaliacoes - this.totaZRSResAB}}</ion-col>\n    </ion-row>\n\n    <ion-row>\n      <ion-col class="titulo" col-6>Total Estudantes</ion-col>\n      <ion-col  class="dados">{{this.totalAvaliacoes}}</ion-col>\n\n    </ion-row>\n    <ion-row>\n\n    </ion-row>\n  </ion-grid>\n\n\n</ion-content>\n'/*ion-inline-end:"C:\apps\4spa\src\pages\componentesafrs\componentesafrs.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* Platform */], __WEBPACK_IMPORTED_MODULE_6__ionic_native_file__["a" /* File */], __WEBPACK_IMPORTED_MODULE_7__ionic_native_file_opener__["a" /* FileOpener */]])
-    ], ComponentesafrsPage);
-    return ComponentesafrsPage;
-}());
-
-//# sourceMappingURL=componentesafrs.js.map
-
-/***/ }),
-
-/***/ 184:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TblzonariscoPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs__);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-/**
-* Generated class for the TblzonariscoPage page.
-*
-* See https://ionicframework.com/docs/components/#navigation for more info on
-* Ionic pages and navigation.
-*/
-var TblzonariscoPage = /** @class */ (function () {
-    function TblzonariscoPage(navCtrl, navParams, HttpCtrl, alertCtrl) {
-        var _this = this;
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.HttpCtrl = HttpCtrl;
-        this.alertCtrl = alertCtrl;
-        this.API_URL = "http://cev.urca.br/treinamento/Api/";
-        this.id_turma = this.navParams.get('id_turma');
-        console.log(this.id_turma);
-        this.HttpCtrl.get(this.API_URL + 'valoresAFRS?id_turma=' + this.id_turma)
-            .map(function (res) { return res.json(); })
-            .subscribe(function (data) {
-            console.log(data);
-            if (data != "") {
-                _this.avaliacoes = data;
-                _this.escola = _this.avaliacoes[0].nome_escola;
-                _this.codTurma = _this.avaliacoes[0].cod_turma;
-                _this.totalZRSdCardio = _this.avaliacoes[0].totalZRSdCardio;
-                _this.totalZRSdOsteo = _this.avaliacoes[0].totalZRSdOsteo;
-                _this.totalAvaliacoes = _this.avaliacoes[0].totalAvaliacoes;
-            }
-            else {
-                var alerta = _this.alertCtrl.create({
-                    title: '<p>Atenção!</p>',
-                    subTitle: '<p>Não existe nenhum avaliação para esta turma!</p>',
-                    buttons: ['OK']
-                });
-                alerta.present();
-            }
-        });
-    }
-    TblzonariscoPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad TblzonariscoPage');
-    };
-    TblzonariscoPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-tblzonarisco',template:/*ion-inline-start:"C:\apps\4spa\src\pages\tblzonarisco\tblzonarisco.html"*/'<!--\nGenerated template for the TblzonariscoPage page.\n\nSee http://ionicframework.com/docs/components/#navigation for more info on\nIonic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Tabela de Zona de Risco a Doenças</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-list class="aluno-list">\n    <ion-item class="nome-aluno">\n      <strong>{{this.escola}}</strong>\n      <p>{{this.codTurma}}</p>\n    </ion-item>\n  </ion-list>\n\n\n  <ion-grid>\n\n      <ion-row>\n        <ion-col class="titulo" col-6>Nome</ion-col>\n        <ion-col class="titulo">D. Card</ion-col>\n        <ion-col class="titulo">D. Oste</ion-col>\n      </ion-row>\n\n      <div *ngFor="let item of avaliacoes">\n        <ion-row>\n          <ion-col class="dados" col-6>{{ item.nome_estudante }}</ion-col>\n          <ion-col class="dados">{{ item.dCardiometabolica }}</ion-col>\n          <ion-col class="dados">{{ item.dOsteomusculares }}</ion-col>\n        </ion-row>\n      </div>\n\n      <ion-row>\n        <ion-col class="titulo" col-6>Total ZRS</ion-col>\n        <ion-col class="dados">{{this.totalZRSdCardio}}</ion-col>\n        <ion-col class="dados">{{this.totalZRSdOsteo}}</ion-col>\n      </ion-row>\n\n      <ion-row>\n        <ion-col class="titulo" col-6>Total ZS</ion-col>\n        <ion-col class="dados">{{this.totalAvaliacoes - this.totalZRSdCardio}}</ion-col>\n        <ion-col class="dados">{{this.totalAvaliacoes - this.totalZRSdOsteo}}</ion-col>\n      </ion-row>\n\n      <ion-row>\n        <ion-col class="titulo" col-6>Total Estudantes</ion-col>\n        <ion-col class="dados">{{this.totalAvaliacoes}}</ion-col>\n\n      </ion-row>\n\n    </ion-grid>\n\n</ion-content>\n'/*ion-inline-end:"C:\apps\4spa\src\pages\tblzonarisco\tblzonarisco.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
-    ], TblzonariscoPage);
-    return TblzonariscoPage;
-}());
-
-//# sourceMappingURL=tblzonarisco.js.map
-
-/***/ }),
-
-/***/ 185:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TblunificadaPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_pdfmake_build_pdfmake__ = __webpack_require__(147);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_pdfmake_build_pdfmake___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_pdfmake_build_pdfmake__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_pdfmake_build_vfs_fonts__ = __webpack_require__(148);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_pdfmake_build_vfs_fonts___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_pdfmake_build_vfs_fonts__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_file__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_file_opener__ = __webpack_require__(98);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_social_sharing__ = __webpack_require__(150);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-
-__WEBPACK_IMPORTED_MODULE_4_pdfmake_build_pdfmake___default.a.vfs = __WEBPACK_IMPORTED_MODULE_5_pdfmake_build_vfs_fonts___default.a.pdfMake.vfs;
-
-
-
-
-/**
-* Generated class for the TblunificadaPage page.
-*
-* See https://ionicframework.com/docs/components/#navigation for more info on
-* Ionic pages and navigation.
-*/
-var TblunificadaPage = /** @class */ (function () {
-    function TblunificadaPage(navCtrl, navParams, HttpCtrl, alertCtrl, plt, file, fileOpener, socialSharing, actionSheetCtrl) {
-        var _this = this;
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.HttpCtrl = HttpCtrl;
-        this.alertCtrl = alertCtrl;
-        this.plt = plt;
-        this.file = file;
-        this.fileOpener = fileOpener;
-        this.socialSharing = socialSharing;
-        this.actionSheetCtrl = actionSheetCtrl;
-        this.API_URL = "http://cev.urca.br/treinamento/Api/";
-        this.id_turma = this.navParams.get('id_turma');
-        console.log(this.id_turma);
-        this.HttpCtrl.get(this.API_URL + 'valoresAFRS?id_turma=' + this.id_turma)
-            .map(function (res) { return res.json(); })
-            .subscribe(function (data) {
-            console.log(data);
-            if (data != "") {
-                _this.avaliacoes = data;
-                console.log(_this.avaliacoes.length);
-                _this.escola = _this.avaliacoes[0].nome_escola;
-                _this.codTurma = _this.avaliacoes[0].cod_turma;
-                _this.totalZRSIMC = _this.avaliacoes[0].totalZRSIMC;
-                _this.totalZRSaptCardio = _this.avaliacoes[0].totalZRSaptCardio;
-                _this.totaZRSFlex = _this.avaliacoes[0].totaZRSFlex;
-                _this.totaZRSResAB = _this.avaliacoes[0].totaZRSResAB;
-                _this.totalAvaliacoes = _this.avaliacoes[0].totalAvaliacoes;
-                _this.totalZRSdCardio = _this.avaliacoes[0].totalZRSdCardio;
-                _this.totalZRSdOsteo = _this.avaliacoes[0].totalZRSdOsteo;
-            }
-            else {
-                var alerta = _this.alertCtrl.create({
-                    title: '<p>Atenção!</p>',
-                    subTitle: '<p>Não existe nenhum avaliação para esta turma!</p>',
-                    buttons: ['OK']
-                });
-                alerta.present();
-            }
-        });
-    }
-    TblunificadaPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-tblunificada',template:/*ion-inline-start:"C:\apps\4spa\src\pages\tblunificada\tblunificada.html"*/'<!--\nGenerated template for the TblunificadaPage page.\n\nSee http://ionicframework.com/docs/components/#navigation for more info on\nIonic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Tabela Unificada</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n\n\n\n  <ion-list class="aluno-list">\n    <ion-item class="nome-aluno">\n      <strong>{{this.escola}}</strong>\n      <p>{{this.codTurma}}</p>\n    </ion-item>\n  </ion-list>\n\n  <ion-grid>\n    <ion-row>\n      <ion-col class="legenda" col-12>\n        ZRS - Zona de Risco a Saúde<br>\n        ZS - Zona Saudável<br><br>\n      </ion-col>\n    </ion-row>\n\n    <ion-row>\n      <ion-col class="titulo" col-2>NOME</ion-col>\n      <ion-col class="titulo">IMC</ion-col>\n      <ion-col class="titulo">APCR</ion-col>\n      <ion-col class="titulo">FLEX</ion-col>\n      <ion-col class="titulo">RML</ion-col>\n      <ion-col class="titulo">D. Card</ion-col>\n      <ion-col class="titulo">D. Oste</ion-col>\n      \n    </ion-row>\n    <div *ngFor="let item of avaliacoes">\n      <ion-row>\n        <ion-col class="dados" col-2>{{ item.nome_estudante }}</ion-col>\n        <ion-col class="dados">{{ item.imc_status }}</ion-col>\n        <ion-col class="dados">{{ item.aptCardio_status }}</ion-col>\n        <ion-col class="dados">{{ item.flex_status }}</ion-col>\n        <ion-col class="dados">{{ item.resAbd_status }}</ion-col>\n        <ion-col class="dados">{{ item.dCardiometabolica }}</ion-col>\n        <ion-col class="dados">{{ item.dOsteomusculares }}</ion-col>\n        \n      </ion-row>\n    </div>\n\n    <ion-row>\n      <ion-col class="titulo" col-2>Total ZRS</ion-col>\n      <ion-col  class="dados">{{this.totalZRSIMC}}</ion-col>\n      <ion-col  class="dados">{{this.totalZRSaptCardio}}</ion-col>\n      <ion-col  class="dados">{{this.totaZRSFlex}}</ion-col>\n      <ion-col  class="dados">{{this.totaZRSResAB}}</ion-col>\n      <ion-col class="dados">{{this.totalZRSdCardio}}</ion-col>\n      <ion-col class="dados">{{this.totalZRSdOsteo}}</ion-col>\n    </ion-row>\n\n    <ion-row>\n      <ion-col class="titulo" col-2>Total ZS</ion-col>\n      <ion-col  class="dados">{{this.totalAvaliacoes - this.totalZRSIMC}}</ion-col>\n      <ion-col  class="dados">{{this.totalAvaliacoes - this.totalZRSaptCardio}}</ion-col>\n      <ion-col  class="dados">{{this.totalAvaliacoes - this.totaZRSFlex}}</ion-col>\n      <ion-col  class="dados">{{this.totalAvaliacoes - this.totaZRSResAB}}</ion-col>\n      <ion-col class="dados">{{this.totalAvaliacoes - this.totalZRSdCardio}}</ion-col>\n      <ion-col class="dados">{{this.totalAvaliacoes - this.totalZRSdOsteo}}</ion-col>\n    </ion-row>\n\n  </ion-grid>\n\n\n  <ion-fab bottom right >\n    <button ion-fab color="primary"><ion-icon name="options"></ion-icon></button>\n\n    <ion-fab-list side="left">\n      <a href="http://cev.urca.br/treinamento/api/imprimirTabelaUnificada?id_turma={{this.id_turma}}">\n        <button ion-fab color="primary"><ion-icon name="print"></ion-icon></button>\n      </a>\n\n    </ion-fab-list>\n  </ion-fab>\n\n</ion-content>\n'/*ion-inline-end:"C:\apps\4spa\src\pages\tblunificada\tblunificada.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* Platform */],
-            __WEBPACK_IMPORTED_MODULE_6__ionic_native_file__["a" /* File */],
-            __WEBPACK_IMPORTED_MODULE_7__ionic_native_file_opener__["a" /* FileOpener */],
-            __WEBPACK_IMPORTED_MODULE_8__ionic_native_social_sharing__["a" /* SocialSharing */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* ActionSheetController */]])
-    ], TblunificadaPage);
-    return TblunificadaPage;
-}());
-
-//# sourceMappingURL=tblunificada.js.map
-
-/***/ }),
-
-/***/ 186:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GrafcardioPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs__);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-/**
-* Generated class for the GrafcardioPage page.
-*
-* See https://ionicframework.com/docs/components/#navigation for more info on
-* Ionic pages and navigation.
-*/
-var GrafcardioPage = /** @class */ (function () {
-    function GrafcardioPage(navCtrl, navParams, HttpCtrl, alertCtrl) {
-        var _this = this;
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.HttpCtrl = HttpCtrl;
-        this.alertCtrl = alertCtrl;
-        this.barChartOptions = [{
-                scales: {
-                    yAxes: [
-                        {
-                            display: true,
-                            ticks: {
-                                fontSize: 10,
-                                colors: '#fff'
-                            }
-                        }
-                    ]
-                }
-            }];
-        this.barChartLabels = [];
-        this.barChartType = 'pie';
-        this.barChartLegend = true;
-        this.barChartColors = [
-            {
-                backgroundColor: '#3F51B5',
-                borderColor: '#3F51B5',
-                pointBackgroundColor: '#3F51B5',
-                pointBorderColor: '#3F51B5',
-                pointHoverBackgroundColor: '#3F51B5',
-                pointHoverBorderColor: '#3F51B5',
-                labels: '#3F51B5'
-            }
-        ];
-        this.doughnutChartType = 'pie';
-        this.doughnutChartTypeFem = 'pie';
-        this.API_URL = "http://cev.urca.br/treinamento/Api/";
-        this.id_turma = this.navParams.get('id_turma');
-        this.HttpCtrl.get(this.API_URL + 'GrafOsteoMasc?id_turma=' + this.id_turma)
-            .map(function (res) { return res.json(); })
-            .subscribe(function (data) {
-            console.log(data);
-            _this.avaliacoes = data;
-            _this.sexoMasculoZRS = _this.avaliacoes.ZRS;
-            _this.sexoMasculoZS = _this.avaliacoes.ZS;
-            _this.totalMasculino = _this.avaliacoes.totalMasculino;
-            _this.totalMasculinoZS = _this.avaliacoes.totalMasculinoZS;
-            _this.totalMasculinoZRS = _this.avaliacoes.totalMasculinoZRS;
-            _this.sexoFemininoZRS = _this.avaliacoes.ZRSF;
-            _this.sexoFemininoZS = _this.avaliacoes.ZSF;
-            _this.totalFeminino = _this.avaliacoes.totalFeminino;
-            _this.totalFemininoZS = _this.avaliacoes.totalFemininoZS;
-            _this.totalFemininoZRS = _this.avaliacoes.totalFemininoZRS;
-        });
-    }
-    GrafcardioPage.prototype.calc = function (tipo) {
-        if (tipo === 'Feminino') {
-            this.calcBar();
-        }
-        else {
-            this.calcDoughnut();
-        }
-    };
-    GrafcardioPage.prototype.calcBar = function () {
-        this.doughnutChartLabelsFem = [
-            'ZRS ' + this.sexoFemininoZRS + "%",
-            'ZS ' + this.sexoFemininoZS + "%",
-        ];
-        this.doughnutChartDataFem = [this.sexoFemininoZRS, this.sexoFemininoZS];
-    };
-    GrafcardioPage.prototype.calcDoughnut = function () {
-        this.doughnutChartLabels = [
-            'ZRS ' + this.sexoMasculoZRS + "%",
-            'ZS ' + this.sexoMasculoZS + "%",
-        ];
-        this.doughnutChartData = [this.sexoMasculoZRS, this.sexoMasculoZS];
-    };
-    ;
-    GrafcardioPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-grafcardio',template:/*ion-inline-start:"C:\apps\4spa\src\pages\grafcardio\grafcardio.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Gráfico D. Cardiometabólica\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <div padding>\n    <ion-segment [(ngModel)]="segment" (ionChange)="calc(segment)">\n      <ion-segment-button  value="Feminino">\n        Feminino\n      </ion-segment-button>\n      <ion-segment-button value="Masculino">\n        Masculino\n      </ion-segment-button>\n    </ion-segment>\n  </div>\n\n  <div [ngSwitch]="segment" style="segment">\n\n    <ion-list *ngSwitchCase="\'Feminino\'" >\n      <p>Total Avaliações: {{this.totalFeminino}}</p>\n      <p>Total ZRS: {{this.totalFemininoZRS}} - Total ZS: {{this.totalFemininoZS}}</p>\n      <div width="600" height="800">\n        <div style="display: block" >\n          <canvas baseChart\n          [data]="doughnutChartDataFem"\n          [labels]="doughnutChartLabelsFem"\n          [chartType]="doughnutChartTypeFem"></canvas>\n        </div>\n      </div>\n    </ion-list>\n\n    <ion-list *ngSwitchCase="\'Masculino\'">\n      <p>Total Avaliações: {{this.totalMasculino}}</p>\n      <p>Total ZRS: {{this.totalMasculinoZRS}} - Total ZS: {{this.totalMasculinoZS}}</p>\n\n      <div width="600" height="800">\n\n        <div style="display: block" >\n          <canvas baseChart\n          [data]="doughnutChartData"\n          [labels]="doughnutChartLabels"\n          [chartType]="doughnutChartType"></canvas>\n        </div>\n      </div>\n    </ion-list>\n  </div>\n</ion-content>\n'/*ion-inline-end:"C:\apps\4spa\src\pages\grafcardio\grafcardio.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
-    ], GrafcardioPage);
-    return GrafcardioPage;
-}());
-
-//# sourceMappingURL=grafcardio.js.map
-
-/***/ }),
-
-/***/ 187:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GrafosteoPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs__);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-/**
- * Generated class for the GrafosteoPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var GrafosteoPage = /** @class */ (function () {
-    function GrafosteoPage(navCtrl, navParams, HttpCtrl, alertCtrl) {
-        var _this = this;
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.HttpCtrl = HttpCtrl;
-        this.alertCtrl = alertCtrl;
-        this.barChartOptions = [{
-                scales: {
-                    yAxes: [
-                        {
-                            display: true,
-                            ticks: {
-                                fontSize: 10,
-                                colors: '#fff'
-                            }
-                        }
-                    ]
-                }
-            }];
-        this.barChartLabels = [];
-        this.barChartType = 'pie';
-        this.barChartLegend = true;
-        this.barChartColors = [
-            {
-                backgroundColor: '#3F51B5',
-                borderColor: '#3F51B5',
-                pointBackgroundColor: '#3F51B5',
-                pointBorderColor: '#3F51B5',
-                pointHoverBackgroundColor: '#3F51B5',
-                pointHoverBorderColor: '#3F51B5',
-                labels: '#3F51B5'
-            }
-        ];
-        this.doughnutChartType = 'pie';
-        this.doughnutChartTypeFem = 'pie';
-        this.API_URL = "http://cev.urca.br/treinamento/Api/";
-        this.id_turma = this.navParams.get('id_turma');
-        this.HttpCtrl.get(this.API_URL + 'GrafCardioMasc?id_turma=' + this.id_turma)
-            .map(function (res) { return res.json(); })
-            .subscribe(function (data) {
-            console.log(data);
-            _this.avaliacoes = data;
-            _this.sexoMasculoZRS = _this.avaliacoes.ZRS;
-            _this.sexoMasculoZS = _this.avaliacoes.ZS;
-            _this.totalMasculino = _this.avaliacoes.totalMasculino;
-            _this.totalMasculinoZS = _this.avaliacoes.totalMasculinoZS;
-            _this.totalMasculinoZRS = _this.avaliacoes.totalMasculinoZRS;
-            _this.sexoFemininoZRS = _this.avaliacoes.ZRSF;
-            _this.sexoFemininoZS = _this.avaliacoes.ZSF;
-            _this.totalFeminino = _this.avaliacoes.totalFeminino;
-            _this.totalFemininoZS = _this.avaliacoes.totalFemininoZS;
-            _this.totalFemininoZRS = _this.avaliacoes.totalFemininoZRS;
-        });
-    }
-    GrafosteoPage.prototype.calc = function (tipo) {
-        if (tipo === 'Feminino') {
-            this.calcBar();
-        }
-        else {
-            this.calcDoughnut();
-        }
-    };
-    GrafosteoPage.prototype.calcBar = function () {
-        this.doughnutChartLabelsFem = [
-            'ZRS ' + this.sexoFemininoZRS + "%",
-            'ZS ' + this.sexoFemininoZS + "%",
-        ];
-        this.doughnutChartDataFem = [this.sexoFemininoZRS, this.sexoFemininoZS];
-    };
-    GrafosteoPage.prototype.calcDoughnut = function () {
-        this.doughnutChartLabels = [
-            'ZRS ' + this.sexoMasculoZRS + "%",
-            'ZS ' + this.sexoMasculoZS + "%",
-        ];
-        this.doughnutChartData = [this.sexoMasculoZRS, this.sexoMasculoZS];
-    };
-    ;
-    GrafosteoPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-grafosteo',template:/*ion-inline-start:"C:\apps\4spa\src\pages\grafosteo\grafosteo.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Gráfico D. Osteomusculáres\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <div padding>\n    <ion-segment [(ngModel)]="segment" (ionChange)="calc(segment)">\n      <ion-segment-button  value="Feminino">\n        Feminino\n      </ion-segment-button>\n      <ion-segment-button value="Masculino">\n        Masculino\n      </ion-segment-button>\n    </ion-segment>\n  </div>\n\n  <div [ngSwitch]="segment" style="segment">\n\n    <ion-list *ngSwitchCase="\'Feminino\'" >\n      <p>Total Avaliações: {{this.totalFeminino}}</p>\n      <p>Total ZRS: {{this.totalFemininoZRS}} - Total ZS: {{this.totalFemininoZS}}</p>\n      <div width="600" height="800">\n        <div style="display: block" >\n          <canvas baseChart\n          [data]="doughnutChartDataFem"\n          [labels]="doughnutChartLabelsFem"\n          [chartType]="doughnutChartTypeFem"></canvas>\n        </div>\n      </div>\n    </ion-list>\n\n    <ion-list *ngSwitchCase="\'Masculino\'">\n      <p>Total Avaliações: {{this.totalMasculino}}</p>\n      <p>Total ZRS: {{this.totalMasculinoZRS}} - Total ZS: {{this.totalMasculinoZS}}</p>\n\n      <div width="600" height="800">\n\n        <div style="display: block" >\n          <canvas baseChart\n          [data]="doughnutChartData"\n          [labels]="doughnutChartLabels"\n          [chartType]="doughnutChartType"></canvas>\n        </div>\n      </div>\n    </ion-list>\n  </div>\n</ion-content>\n'/*ion-inline-end:"C:\apps\4spa\src\pages\grafosteo\grafosteo.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
-    ], GrafosteoPage);
-    return GrafosteoPage;
-}());
-
-//# sourceMappingURL=grafosteo.js.map
-
-/***/ }),
-
-/***/ 188:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GrafgeralPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs__);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-/**
- * Generated class for the GrafgeralPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var GrafgeralPage = /** @class */ (function () {
-    function GrafgeralPage(navCtrl, navParams, HttpCtrl, alertCtrl) {
-        var _this = this;
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.HttpCtrl = HttpCtrl;
-        this.alertCtrl = alertCtrl;
-        this.barChartOptions = [{
-                scales: {
-                    yAxes: [
-                        {
-                            display: true,
-                            ticks: {
-                                fontSize: 10,
-                                colors: '#fff'
-                            }
-                        }
-                    ]
-                }
-            }];
-        this.barChartLabels = [];
-        this.barChartType = 'pie';
-        this.barChartLegend = true;
-        this.barChartColors = [
-            {
-                backgroundColor: '#3F51B5',
-                borderColor: '#3F51B5',
-                pointBackgroundColor: '#3F51B5',
-                pointBorderColor: '#3F51B5',
-                pointHoverBackgroundColor: '#3F51B5',
-                pointHoverBorderColor: '#3F51B5',
-                labels: '#3F51B5'
-            }
-        ];
-        this.doughnutChartType = 'pie';
-        this.doughnutChartTypeFem = 'pie';
-        this.API_URL = "http://cev.urca.br/treinamento/Api/";
-        this.id_turma = this.navParams.get('id_turma');
-        this.HttpCtrl.get(this.API_URL + 'GrafGeralCardio?id_turma=' + this.id_turma)
-            .map(function (res) { return res.json(); })
-            .subscribe(function (data) {
-            console.log(data);
-            _this.avaliacoes = data;
-            _this.totalAvaliacoes = _this.avaliacoes.totalAvaliacoes;
-            _this.ZRSCardio = _this.avaliacoes.ZRSCardio;
-            _this.ZRSOsteo = _this.avaliacoes.ZRSOsteo;
-            _this.totalZRSdCardio = _this.avaliacoes.totalZRSdCardio;
-            _this.totalZRSdOsteo = _this.avaliacoes.totalZRSdOsteo;
-            _this.ZSOsteo = _this.avaliacoes.ZSOsteo;
-            _this.ZSCardio = _this.avaliacoes.ZSCardio;
-        });
-    }
-    GrafgeralPage.prototype.calc = function (tipo) {
-        if (tipo === 'cardiometabolica') {
-            this.calcBar();
-        }
-        else {
-            this.calcDoughnut();
-        }
-    };
-    GrafgeralPage.prototype.calcBar = function () {
-        this.doughnutChartLabelsFem = [
-            'ZRS ' + this.ZRSCardio + "%",
-            'ZS ' + this.ZSCardio + "%",
-        ];
-        this.doughnutChartDataFem = [this.ZRSCardio, this.ZSCardio];
-    };
-    GrafgeralPage.prototype.calcDoughnut = function () {
-        this.doughnutChartLabels = [
-            'ZRS ' + this.ZRSOsteo + "%",
-            'ZS ' + this.ZSOsteo + "%",
-        ];
-        this.doughnutChartData = [this.ZRSOsteo, this.ZSOsteo];
-    };
-    ;
-    GrafgeralPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-grafgeral',template:/*ion-inline-start:"C:\apps\4spa\src\pages\grafgeral\grafgeral.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Gráfico Geral\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <div padding>\n    <ion-segment [(ngModel)]="segment" (ionChange)="calc(segment)">\n      <ion-segment-button  value="cardiometabolica">\n        Cardiometabólica\n      </ion-segment-button>\n      <ion-segment-button value="Masculino">\n        Osteomusculáres\n      </ion-segment-button>\n    </ion-segment>\n  </div>\n\n  <div [ngSwitch]="segment" style="segment">\n\n    <ion-list *ngSwitchCase="\'cardiometabolica\'" >\n      <p>Total Avaliações: {{this.totalAvaliacoes}}</p>\n      <p>Total ZRS: {{this.totalZRSdCardio}} - Total ZS: {{this.totalAvaliacoes - this.totalZRSdCardio}}</p>\n      <div width="600" height="800">\n        <div style="display: block" >\n          <canvas baseChart\n          [data]="doughnutChartDataFem"\n          [labels]="doughnutChartLabelsFem"\n          [chartType]="doughnutChartTypeFem"></canvas>\n        </div>\n      </div>\n    </ion-list>\n\n    <ion-list *ngSwitchCase="\'Masculino\'">\n      <p>Total Avaliações: {{this.totalAvaliacoes}}</p>\n      <p>Total ZRS: {{this.totalZRSdOsteo}} - Total ZS: {{this.totalAvaliacoes - totalZRSdOsteo}}</p>\n\n      <div width="600" height="800">\n\n        <div style="display: block" >\n          <canvas baseChart\n          [data]="doughnutChartData"\n          [labels]="doughnutChartLabels"\n          [chartType]="doughnutChartType"></canvas>\n        </div>\n      </div>\n    </ion-list>\n  </div>\n</ion-content>\n'/*ion-inline-end:"C:\apps\4spa\src\pages\grafgeral\grafgeral.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
-    ], GrafgeralPage);
-    return GrafgeralPage;
-}());
-
-//# sourceMappingURL=grafgeral.js.map
-
-/***/ }),
-
-/***/ 189:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the AboutPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var AboutPage = /** @class */ (function () {
-    function AboutPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    AboutPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad AboutPage');
-    };
-    AboutPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-about',template:/*ion-inline-start:"C:\apps\4spa\src\pages\about\about.html"*/'<!--\nGenerated template for the AboutPage page.\n\nSee http://ionicframework.com/docs/components/#navigation for more info on\nIonic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Sobre o 4SPA</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-item>\n    <img src="/assets/imgs/logo.jpg">\n    <h3>4SPA - School Physical Assessment</h3>\n  </ion-item>\n\n  <ion-card>\n\n\n    <ion-card-content class="sobre">\n      Este aplicativo contém orientações destinadas a vocês, famílias e cuidadores de crianças. <br>\n      O objetivo é servir de apoio no entendimento do processo saúde-doença da criança no ambiente domiciliar, assim como auxiliar no manejo correto dos problemas clínicos mais comuns nessa faixa etária e subsidiar a tomada de decisões pelos responsáveis.\n    <br>  As orientações são no intuito de racionalizar a utilização de medidas não-farmacológicas com evidências clínicas comprovadas na literatura científica e os cuidados com as medicações que mesmo isentas de prescrições não são isentas de riscos.\n    <br>  É importante que os responsáveis utilizem esse material para reconhecer sinais de alerta e procurar atendimento médico como também tranquilizar-se frente a problemas de saúde sem sinais de localização.\n    <br>  É igualmente importante, para o alcance do restabelecimento da saúde da criança, o fortalecimento das competências familiares para a continuidade do tratamento e do cuidado dela nos espaços de convivência familiar e comunitário.\n    <br>  Então, vamos conhecer o que fazer frente as principais enfermidades da criança?\n\n    </ion-card-content>\n\n  </ion-card>\n</ion-content>\n'/*ion-inline-end:"C:\apps\4spa\src\pages\about\about.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
-    ], AboutPage);
-    return AboutPage;
-}());
-
-//# sourceMappingURL=about.js.map
-
-/***/ }),
-
-/***/ 190:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2284,7 +1241,7 @@ var AddEscolaPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 191:
+/***/ 181:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2428,6 +1385,1049 @@ var EditEscolaPage = /** @class */ (function () {
 
 /***/ }),
 
+/***/ 182:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddTurmaPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__turmas_details_turmas_details__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+/**
+ * Generated class for the AddTurmaPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var AddTurmaPage = /** @class */ (function () {
+    function AddTurmaPage(navCtrl, navParams, HttpCtrl, alertCtrl) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.HttpCtrl = HttpCtrl;
+        this.alertCtrl = alertCtrl;
+        this.API_URL = "http://cev.urca.br/treinamento/Api/";
+        this.id_escola = this.navParams.get('id_escola');
+        console.log(this.id_escola);
+    }
+    AddTurmaPage.prototype.salvarTurma = function () {
+        var _this = this;
+        if (this.codTurma == null) {
+            var alerta = this.alertCtrl.create({
+                title: '<p>Ops!</p>',
+                subTitle: '<p>Preencha todos os dados para continuar!</p>',
+                buttons: ['OK']
+            });
+            alerta.present();
+        }
+        else {
+            this.HttpCtrl.get(this.API_URL + 'adicionarTurma?id_escola=' + this.id_escola + '&codTurma=' + this.codTurma)
+                .map(function (res) { return res.json(); })
+                .subscribe(function (data) {
+                if (data == true) {
+                    var alerta = _this.alertCtrl.create({
+                        title: '<p>Atenção!</p>',
+                        subTitle: '<p>Turma cadastra com sucesso!</p>',
+                        buttons: ['OK']
+                    });
+                    alerta.present();
+                    _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__turmas_details_turmas_details__["a" /* TurmasDetailsPage */], {
+                        'id_escola': _this.id_escola,
+                    });
+                }
+                else {
+                    var alerta = _this.alertCtrl.create({
+                        title: '<p>Ops!</p>',
+                        subTitle: '<p>' + data + '</p>',
+                        buttons: ['OK']
+                    });
+                    alerta.present();
+                }
+            });
+        }
+    };
+    AddTurmaPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-add-turma',template:/*ion-inline-start:"C:\apps\4spa\src\pages\add-turma\add-turma.html"*/'<!--\nGenerated template for the AddTurmaPage page.\n\nSee http://ionicframework.com/docs/components/#navigation for more info on\nIonic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Adicionar Turma</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-list>\n\n    <ion-item>\n      <ion-label color="primary" floating>Código da Turma</ion-label>\n      <ion-input [(ngModel)]="codTurma"></ion-input>\n    </ion-item>\n\n    <br>\n    <button ion-button full (click)="salvarTurma();">Salvar</button>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"C:\apps\4spa\src\pages\add-turma\add-turma.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Http */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
+    ], AddTurmaPage);
+    return AddTurmaPage;
+}());
+
+//# sourceMappingURL=add-turma.js.map
+
+/***/ }),
+
+/***/ 183:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EditTurmaPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__turmas_details_turmas_details__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+/**
+* Generated class for the EditTurmaPage page.
+*
+* See https://ionicframework.com/docs/components/#navigation for more info on
+* Ionic pages and navigation.
+*/
+var EditTurmaPage = /** @class */ (function () {
+    function EditTurmaPage(navCtrl, navParams, HttpCtrl, alertCtrl) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.HttpCtrl = HttpCtrl;
+        this.alertCtrl = alertCtrl;
+        this.API_URL = "http://cev.urca.br/treinamento/Api/";
+        this.id_turma = this.navParams.get('id_turma');
+        this.HttpCtrl.get(this.API_URL + 'editTurma?id=' + this.id_turma)
+            .map(function (res) { return res.json(); })
+            .subscribe(function (data) {
+            _this.turma = data;
+            _this.codTurma = _this.turma[0]['cod_turma'];
+            _this.id_escola = _this.turma[0]['id_escola'];
+        });
+    }
+    EditTurmaPage.prototype.salvarTurmaEdicao = function () {
+        var _this = this;
+        this.HttpCtrl.get(this.API_URL + 'salvarEditTurma?id_turma=' + this.id_turma + '&codTurma=' + this.codTurma + '&id_escola=' + this.id_escola)
+            .map(function (res) { return res.json(); })
+            .subscribe(function (data) {
+            if (data == true) {
+                var alerta = _this.alertCtrl.create({
+                    title: '<p>Atenção!</p>',
+                    subTitle: '<p>Turma alterada com sucesso!</p>',
+                    buttons: ['OK']
+                });
+                alerta.present();
+                _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__turmas_details_turmas_details__["a" /* TurmasDetailsPage */], {
+                    'id_escola': _this.id_escola,
+                });
+            }
+            else {
+                var alerta = _this.alertCtrl.create({
+                    title: '<p>Ops!</p>',
+                    subTitle: '<p>' + data + '</p>',
+                    buttons: ['OK']
+                });
+                alerta.present();
+            }
+        });
+    };
+    EditTurmaPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-edit-turma',template:/*ion-inline-start:"C:\apps\4spa\src\pages\edit-turma\edit-turma.html"*/'<!--\n  Generated template for the EditTurmaPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Editar Turma</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-list>\n\n    <ion-item>\n      <ion-label color="primary" floating>Código da Turma</ion-label>\n      <ion-input [(ngModel)]="codTurma"></ion-input>\n    </ion-item>\n\n    <br>\n    <button ion-button full (click)="salvarTurmaEdicao();">Salvar Alterações</button>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"C:\apps\4spa\src\pages\edit-turma\edit-turma.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* Http */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
+    ], EditTurmaPage);
+    return EditTurmaPage;
+}());
+
+//# sourceMappingURL=edit-turma.js.map
+
+/***/ }),
+
+/***/ 184:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RelatorioTurmasPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__valores_afrs_valores_afrs__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__componentesafrs_componentesafrs__ = __webpack_require__(186);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__tblzonarisco_tblzonarisco__ = __webpack_require__(187);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__tblunificada_tblunificada__ = __webpack_require__(188);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__grafcardio_grafcardio__ = __webpack_require__(189);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__grafosteo_grafosteo__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__grafgeral_grafgeral__ = __webpack_require__(191);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+/**
+ * Generated class for the RelatorioTurmasPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var RelatorioTurmasPage = /** @class */ (function () {
+    function RelatorioTurmasPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.id_turma = this.navParams.get('id_turma');
+    }
+    RelatorioTurmasPage.prototype.valoresAFRS = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__valores_afrs_valores_afrs__["a" /* ValoresAfrsPage */], {
+            'id_turma': this.id_turma,
+        });
+    };
+    RelatorioTurmasPage.prototype.componentesAFRS = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__componentesafrs_componentesafrs__["a" /* ComponentesafrsPage */], {
+            'id_turma': this.id_turma,
+        });
+    };
+    RelatorioTurmasPage.prototype.tblZonaRisco = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__tblzonarisco_tblzonarisco__["a" /* TblzonariscoPage */], {
+            'id_turma': this.id_turma,
+        });
+    };
+    RelatorioTurmasPage.prototype.tblunificada = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_5__tblunificada_tblunificada__["a" /* TblunificadaPage */], {
+            'id_turma': this.id_turma,
+        });
+    };
+    RelatorioTurmasPage.prototype.grafCardio = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_6__grafcardio_grafcardio__["a" /* GrafcardioPage */], {
+            'id_turma': this.id_turma,
+        });
+    };
+    RelatorioTurmasPage.prototype.grafGeral = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_8__grafgeral_grafgeral__["a" /* GrafgeralPage */], {
+            'id_turma': this.id_turma,
+        });
+    };
+    RelatorioTurmasPage.prototype.grafOsteo = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_7__grafosteo_grafosteo__["a" /* GrafosteoPage */], {
+            'id_turma': this.id_turma,
+        });
+    };
+    RelatorioTurmasPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-relatorio-turmas',template:/*ion-inline-start:"C:\apps\4spa\src\pages\relatorio-turmas\relatorio-turmas.html"*/'<!--\nGenerated template for the RelatorioTurmasPage page.\n\nSee http://ionicframework.com/docs/components/#navigation for more info on\nIonic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar>\n    <ion-title>Relatórios Turma</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n  <ion-grid>\n    <ion-row class="relatorios-itens" (click)=\'valoresAFRS()\'>\n      <ion-col col-4>\n        <img src="/assets/imgs/apt-fisica-componentes.jpg">\n      </ion-col>\n      <ion-col col-8>\n        <p>Tabela de Valores de Componentes da Aptidão Física Relacionados a Saúde</p>\n      </ion-col>\n      <!--  <ion-col col-6>\n      <img src="/assets/imgs/apt-fisica.jpg" (click)=\'componentesAFRS()\'>\n      <p>Tabela de Classificação de\n      Componentes da Aptidão Física Relacionados a Saúde</p>\n    </ion-col>\n    <ion-col col-4>\n    <img src="/assets/imgs/tblunificada.png"  (click)=\'tblunificada()\'>\n    <p>Tabela Unificada de Componentes de Aptidão Física e Zona de Riscos</p>\n  </ion-col>\n  <ion-col col-2></ion-col>-->\n\n</ion-row>\n\n<ion-row (click)=\'tblunificada()\' class="relatorios-itens">\n  <ion-col col-4>\n    <img src="/assets/imgs/tblunificada.png">\n  </ion-col>\n  <ion-col col-8>\n    <p>Tabela Unificada de Componentes de Aptidão Física e Zona de Riscos</p>\n  </ion-col>\n</ion-row>\n\n\n\n<ion-row (click)=\'grafCardio()\' class="relatorios-itens">\n  <ion-col col-4>\n    <img src="/assets/imgs/grafico.png">\n  </ion-col>\n  <ion-col col-8>\n    <p>Gráfico ZR Cardiometabólica por sexo</p>\n  </ion-col>\n</ion-row>\n\n\n<ion-row (click)=\'grafOsteo()\' class="relatorios-itens">\n  <ion-col col-4>\n    <img src="/assets/imgs/grafico.png" >\n  </ion-col>\n  <ion-col col-8>\n    <p>Gráfico ZR Osteomusculares por sexo</p>\n  </ion-col>\n</ion-row>\n\n<ion-row (click)=\'grafGeral()\' class="relatorios-itens">\n  <ion-col col-4>\n    <img src="/assets/imgs/grafico.png" >\n  </ion-col>\n  <ion-col col-8>\n    <p>Gráfico Geral</p>\n  </ion-col>\n</ion-row>\n\n\n</ion-grid>\n</ion-content>\n'/*ion-inline-end:"C:\apps\4spa\src\pages\relatorio-turmas\relatorio-turmas.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
+    ], RelatorioTurmasPage);
+    return RelatorioTurmasPage;
+}());
+
+//# sourceMappingURL=relatorio-turmas.js.map
+
+/***/ }),
+
+/***/ 185:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ValoresAfrsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+/**
+* Generated class for the ValoresAfrsPage page.
+*
+* See https://ionicframework.com/docs/components/#navigation for more info on
+* Ionic pages and navigation.
+*/
+var ValoresAfrsPage = /** @class */ (function () {
+    function ValoresAfrsPage(navCtrl, navParams, HttpCtrl, alertCtrl) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.HttpCtrl = HttpCtrl;
+        this.alertCtrl = alertCtrl;
+        this.API_URL = "http://cev.urca.br/treinamento/Api/";
+        this.pdfObj = null;
+        this.id_turma = this.navParams.get('id_turma');
+        this.HttpCtrl.get(this.API_URL + 'valoresAFRS?id_turma=' + this.id_turma)
+            .map(function (res) { return res.json(); })
+            .subscribe(function (data) {
+            console.log(data);
+            if (data != "") {
+                _this.avaliacoes = data;
+                _this.escola = _this.avaliacoes[0].nome_escola;
+                _this.codTurma = _this.avaliacoes[0].cod_turma;
+            }
+            else {
+                var alerta = _this.alertCtrl.create({
+                    title: '<p>Atenção!</p>',
+                    subTitle: '<p>Não existe nenhum avaliação para esta turma!</p>',
+                    buttons: ['OK']
+                });
+                alerta.present();
+            }
+        });
+    }
+    ValoresAfrsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-valores-afrs',template:/*ion-inline-start:"C:\apps\4spa\src\pages\valores-afrs\valores-afrs.html"*/'<!--\nGenerated template for the ValoresAfrsPage page.\n\nSee http://ionicframework.com/docs/components/#navigation for more info on\nIonic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>ValoresAFRS</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-list class="aluno-list">\n    <ion-item class="nome-aluno">\n      <strong>{{this.escola}}</strong>\n      <p>{{this.codTurma}}</p>\n    </ion-item>\n  </ion-list>\n\n  <ion-grid>\n    <ion-row>\n      <ion-col class="titulo" col-3>NOME</ion-col>\n      <ion-col class="titulo">IMC</ion-col>\n      <ion-col class="titulo">APCR</ion-col>\n      <ion-col class="titulo">FLEX</ion-col>\n      <ion-col class="titulo">RML</ion-col>\n    </ion-row>\n    <div *ngFor="let item of avaliacoes">\n      <ion-row>\n        <ion-col class="dados" col-3>{{ item.nome_estudante }}</ion-col>\n        <ion-col class="dados">{{ item.imc_avaliacao }}</ion-col>\n        <ion-col class="dados">{{ item.aptCardio }}</ion-col>\n        <ion-col class="dados">{{ item.flex_avaliacao }}</ion-col>\n        <ion-col class="dados">{{ item.resAbd_avaliacao }}</ion-col>\n      </ion-row>\n    </div>\n  </ion-grid>\n  <ion-fab bottom right >\n    <button ion-fab color="primary"><ion-icon name="options"></ion-icon></button>\n\n    <ion-fab-list side="left">\n      <a href="http://cev.urca.br/treinamento/api/valoresAFRSImpress?id_turma={{this.id_turma}}">\n        <button ion-fab color="primary"><ion-icon name="print"></ion-icon></button>\n      </a>\n\n    </ion-fab-list>\n  </ion-fab>\n</ion-content>\n'/*ion-inline-end:"C:\apps\4spa\src\pages\valores-afrs\valores-afrs.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
+    ], ValoresAfrsPage);
+    return ValoresAfrsPage;
+}());
+
+//# sourceMappingURL=valores-afrs.js.map
+
+/***/ }),
+
+/***/ 186:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ComponentesafrsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_pdfmake_build_pdfmake__ = __webpack_require__(148);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_pdfmake_build_pdfmake___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_pdfmake_build_pdfmake__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_pdfmake_build_vfs_fonts__ = __webpack_require__(149);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_pdfmake_build_vfs_fonts___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_pdfmake_build_vfs_fonts__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_file__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_file_opener__ = __webpack_require__(98);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+__WEBPACK_IMPORTED_MODULE_4_pdfmake_build_pdfmake___default.a.vfs = __WEBPACK_IMPORTED_MODULE_5_pdfmake_build_vfs_fonts___default.a.pdfMake.vfs;
+
+
+/**
+* Generated class for the ComponentesafrsPage page.
+*
+* See https://ionicframework.com/docs/components/#navigation for more info on
+* Ionic pages and navigation.
+*/
+var ComponentesafrsPage = /** @class */ (function () {
+    function ComponentesafrsPage(navCtrl, navParams, HttpCtrl, alertCtrl, plt, file, fileOpener) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.HttpCtrl = HttpCtrl;
+        this.alertCtrl = alertCtrl;
+        this.plt = plt;
+        this.file = file;
+        this.fileOpener = fileOpener;
+        this.pdfObj = null;
+        this.API_URL = "http://cev.urca.br/treinamento/Api/";
+        this.id_turma = this.navParams.get('id_turma');
+        console.log(this.id_turma);
+        this.HttpCtrl.get(this.API_URL + 'valoresAFRS?id_turma=' + this.id_turma)
+            .map(function (res) { return res.json(); })
+            .subscribe(function (data) {
+            console.log(data);
+            if (data != "") {
+                _this.avaliacoes = data;
+                _this.escola = _this.avaliacoes[0].nome_escola;
+                _this.codTurma = _this.avaliacoes[0].cod_turma;
+                _this.totalZRSIMC = _this.avaliacoes[0].totalZRSIMC;
+                _this.totalZRSaptCardio = _this.avaliacoes[0].totalZRSaptCardio;
+                _this.totaZRSFlex = _this.avaliacoes[0].totaZRSFlex;
+                _this.totaZRSResAB = _this.avaliacoes[0].totaZRSResAB;
+                _this.totalAvaliacoes = _this.avaliacoes[0].totalAvaliacoes;
+            }
+            else {
+                var alerta = _this.alertCtrl.create({
+                    title: '<p>Atenção!</p>',
+                    subTitle: '<p>Não existe nenhum avaliação para esta turma!</p>',
+                    buttons: ['OK']
+                });
+                alerta.present();
+            }
+        });
+    }
+    ComponentesafrsPage.prototype.createPdf = function () {
+        var docDefinition = {
+            content: [
+                { text: 'REMINDER', style: 'header' },
+                { text: new Date().toTimeString(), alignment: 'right' },
+                { text: 'From', style: 'subheader' },
+                { text: "this.letterObj.from" },
+                { text: 'To', style: 'subheader' },
+                'this.letterObj.to',
+                { text: 'this.letterObj.text', style: 'story', margin: [0, 20, 0, 20] },
+                {
+                    ul: [
+                        'Bacon',
+                        'Rips',
+                        'BBQ',
+                    ]
+                }
+            ],
+            styles: {
+                header: {
+                    fontSize: 18,
+                    bold: true,
+                },
+                subheader: {
+                    fontSize: 14,
+                    bold: true,
+                    margin: [0, 15, 0, 0]
+                },
+                story: {
+                    italic: true,
+                    alignment: 'center',
+                    width: '50%',
+                }
+            }
+        };
+        this.pdfObj = __WEBPACK_IMPORTED_MODULE_4_pdfmake_build_pdfmake___default.a.createPdf(docDefinition);
+        this.downloadPdf();
+    };
+    ComponentesafrsPage.prototype.downloadPdf = function () {
+        var _this = this;
+        if (this.plt.is('cordova')) {
+            this.pdfObj.getBuffer(function (buffer) {
+                var blob = new Blob([buffer], { type: 'application/pdf' });
+                // Save the PDF to the data Directory of our App
+                _this.file.writeFile(_this.file.dataDirectory, 'myletter.pdf', blob, { replace: true }).then(function (fileEntry) {
+                    // Open the PDf with the correct OS tools
+                    _this.fileOpener.open(_this.file.dataDirectory + 'myletter.pdf', 'application/pdf');
+                });
+            });
+        }
+        else {
+            // On a browser simply use download!
+            this.pdfObj.download();
+        }
+    };
+    ComponentesafrsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-componentesafrs',template:/*ion-inline-start:"C:\apps\4spa\src\pages\componentesafrs\componentesafrs.html"*/'<!--\nGenerated template for the ComponentesafrsPage page.\n\nSee http://ionicframework.com/docs/components/#navigation for more info on\nIonic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Componentes AFRS</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n\n\n  <ion-list class="aluno-list">\n    <ion-item class="nome-aluno">\n      <strong>{{this.escola}}</strong>\n      <p>{{this.codTurma}}</p>\n    </ion-item>\n  </ion-list>\n\n\n  <ion-grid>\n    <ion-row>\n      <ion-col class="titulo" col-3>Nome</ion-col>\n      <ion-col class="titulo">IMC</ion-col>\n      <ion-col class="titulo">APCR</ion-col>\n      <ion-col class="titulo">FLEX</ion-col>\n      <ion-col class="titulo">RML</ion-col>\n    </ion-row>\n    <div *ngFor="let item of avaliacoes">\n      <ion-row>\n        <ion-col class="dados" col-3>{{ item.nome_estudante }}</ion-col>\n        <ion-col class="dados">{{ item.imc_status }}</ion-col>\n        <ion-col class="dados">{{ item.aptCardio_status }}</ion-col>\n        <ion-col class="dados">{{ item.flex_status }}</ion-col>\n        <ion-col class="dados">{{ item.resAbd_status }}</ion-col>\n      </ion-row>\n    </div>\n\n    <ion-row>\n      <ion-col class="titulo" col-3>Total ZRS</ion-col>\n      <ion-col  class="dados">{{this.totalZRSIMC}}</ion-col>\n      <ion-col  class="dados">{{this.totalZRSaptCardio}}</ion-col>\n      <ion-col  class="dados">{{this.totaZRSFlex}}</ion-col>\n      <ion-col  class="dados">{{this.totaZRSResAB}}</ion-col>\n    </ion-row>\n\n    <ion-row>\n      <ion-col class="titulo" col-3>Total ZS</ion-col>\n      <ion-col  class="dados">{{this.totalAvaliacoes - this.totalZRSIMC}}</ion-col>\n      <ion-col  class="dados">{{this.totalAvaliacoes - this.totalZRSaptCardio}}</ion-col>\n      <ion-col  class="dados">{{this.totalAvaliacoes - this.totaZRSFlex}}</ion-col>\n      <ion-col  class="dados">{{this.totalAvaliacoes - this.totaZRSResAB}}</ion-col>\n    </ion-row>\n\n    <ion-row>\n      <ion-col class="titulo" col-6>Total Estudantes</ion-col>\n      <ion-col  class="dados">{{this.totalAvaliacoes}}</ion-col>\n\n    </ion-row>\n    <ion-row>\n\n    </ion-row>\n  </ion-grid>\n\n\n</ion-content>\n'/*ion-inline-end:"C:\apps\4spa\src\pages\componentesafrs\componentesafrs.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* Platform */], __WEBPACK_IMPORTED_MODULE_6__ionic_native_file__["a" /* File */], __WEBPACK_IMPORTED_MODULE_7__ionic_native_file_opener__["a" /* FileOpener */]])
+    ], ComponentesafrsPage);
+    return ComponentesafrsPage;
+}());
+
+//# sourceMappingURL=componentesafrs.js.map
+
+/***/ }),
+
+/***/ 187:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TblzonariscoPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+/**
+* Generated class for the TblzonariscoPage page.
+*
+* See https://ionicframework.com/docs/components/#navigation for more info on
+* Ionic pages and navigation.
+*/
+var TblzonariscoPage = /** @class */ (function () {
+    function TblzonariscoPage(navCtrl, navParams, HttpCtrl, alertCtrl) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.HttpCtrl = HttpCtrl;
+        this.alertCtrl = alertCtrl;
+        this.API_URL = "http://cev.urca.br/treinamento/Api/";
+        this.id_turma = this.navParams.get('id_turma');
+        console.log(this.id_turma);
+        this.HttpCtrl.get(this.API_URL + 'valoresAFRS?id_turma=' + this.id_turma)
+            .map(function (res) { return res.json(); })
+            .subscribe(function (data) {
+            console.log(data);
+            if (data != "") {
+                _this.avaliacoes = data;
+                _this.escola = _this.avaliacoes[0].nome_escola;
+                _this.codTurma = _this.avaliacoes[0].cod_turma;
+                _this.totalZRSdCardio = _this.avaliacoes[0].totalZRSdCardio;
+                _this.totalZRSdOsteo = _this.avaliacoes[0].totalZRSdOsteo;
+                _this.totalAvaliacoes = _this.avaliacoes[0].totalAvaliacoes;
+            }
+            else {
+                var alerta = _this.alertCtrl.create({
+                    title: '<p>Atenção!</p>',
+                    subTitle: '<p>Não existe nenhum avaliação para esta turma!</p>',
+                    buttons: ['OK']
+                });
+                alerta.present();
+            }
+        });
+    }
+    TblzonariscoPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad TblzonariscoPage');
+    };
+    TblzonariscoPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-tblzonarisco',template:/*ion-inline-start:"C:\apps\4spa\src\pages\tblzonarisco\tblzonarisco.html"*/'<!--\nGenerated template for the TblzonariscoPage page.\n\nSee http://ionicframework.com/docs/components/#navigation for more info on\nIonic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Tabela de Zona de Risco a Doenças</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-list class="aluno-list">\n    <ion-item class="nome-aluno">\n      <strong>{{this.escola}}</strong>\n      <p>{{this.codTurma}}</p>\n    </ion-item>\n  </ion-list>\n\n\n  <ion-grid>\n\n      <ion-row>\n        <ion-col class="titulo" col-6>Nome</ion-col>\n        <ion-col class="titulo">D. Card</ion-col>\n        <ion-col class="titulo">D. Oste</ion-col>\n      </ion-row>\n\n      <div *ngFor="let item of avaliacoes">\n        <ion-row>\n          <ion-col class="dados" col-6>{{ item.nome_estudante }}</ion-col>\n          <ion-col class="dados">{{ item.dCardiometabolica }}</ion-col>\n          <ion-col class="dados">{{ item.dOsteomusculares }}</ion-col>\n        </ion-row>\n      </div>\n\n      <ion-row>\n        <ion-col class="titulo" col-6>Total ZRS</ion-col>\n        <ion-col class="dados">{{this.totalZRSdCardio}}</ion-col>\n        <ion-col class="dados">{{this.totalZRSdOsteo}}</ion-col>\n      </ion-row>\n\n      <ion-row>\n        <ion-col class="titulo" col-6>Total ZS</ion-col>\n        <ion-col class="dados">{{this.totalAvaliacoes - this.totalZRSdCardio}}</ion-col>\n        <ion-col class="dados">{{this.totalAvaliacoes - this.totalZRSdOsteo}}</ion-col>\n      </ion-row>\n\n      <ion-row>\n        <ion-col class="titulo" col-6>Total Estudantes</ion-col>\n        <ion-col class="dados">{{this.totalAvaliacoes}}</ion-col>\n\n      </ion-row>\n\n    </ion-grid>\n\n</ion-content>\n'/*ion-inline-end:"C:\apps\4spa\src\pages\tblzonarisco\tblzonarisco.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
+    ], TblzonariscoPage);
+    return TblzonariscoPage;
+}());
+
+//# sourceMappingURL=tblzonarisco.js.map
+
+/***/ }),
+
+/***/ 188:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TblunificadaPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_pdfmake_build_pdfmake__ = __webpack_require__(148);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_pdfmake_build_pdfmake___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_pdfmake_build_pdfmake__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_pdfmake_build_vfs_fonts__ = __webpack_require__(149);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_pdfmake_build_vfs_fonts___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_pdfmake_build_vfs_fonts__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_file__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_file_opener__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_social_sharing__ = __webpack_require__(151);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+__WEBPACK_IMPORTED_MODULE_4_pdfmake_build_pdfmake___default.a.vfs = __WEBPACK_IMPORTED_MODULE_5_pdfmake_build_vfs_fonts___default.a.pdfMake.vfs;
+
+
+
+
+/**
+* Generated class for the TblunificadaPage page.
+*
+* See https://ionicframework.com/docs/components/#navigation for more info on
+* Ionic pages and navigation.
+*/
+var TblunificadaPage = /** @class */ (function () {
+    function TblunificadaPage(navCtrl, navParams, HttpCtrl, alertCtrl, plt, file, fileOpener, socialSharing, actionSheetCtrl) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.HttpCtrl = HttpCtrl;
+        this.alertCtrl = alertCtrl;
+        this.plt = plt;
+        this.file = file;
+        this.fileOpener = fileOpener;
+        this.socialSharing = socialSharing;
+        this.actionSheetCtrl = actionSheetCtrl;
+        this.API_URL = "http://cev.urca.br/treinamento/Api/";
+        this.id_turma = this.navParams.get('id_turma');
+        console.log(this.id_turma);
+        this.HttpCtrl.get(this.API_URL + 'valoresAFRS?id_turma=' + this.id_turma)
+            .map(function (res) { return res.json(); })
+            .subscribe(function (data) {
+            console.log(data);
+            if (data != "") {
+                _this.avaliacoes = data;
+                console.log(_this.avaliacoes.length);
+                _this.escola = _this.avaliacoes[0].nome_escola;
+                _this.codTurma = _this.avaliacoes[0].cod_turma;
+                _this.totalZRSIMC = _this.avaliacoes[0].totalZRSIMC;
+                _this.totalZRSaptCardio = _this.avaliacoes[0].totalZRSaptCardio;
+                _this.totaZRSFlex = _this.avaliacoes[0].totaZRSFlex;
+                _this.totaZRSResAB = _this.avaliacoes[0].totaZRSResAB;
+                _this.totalAvaliacoes = _this.avaliacoes[0].totalAvaliacoes;
+                _this.totalZRSdCardio = _this.avaliacoes[0].totalZRSdCardio;
+                _this.totalZRSdOsteo = _this.avaliacoes[0].totalZRSdOsteo;
+            }
+            else {
+                var alerta = _this.alertCtrl.create({
+                    title: '<p>Atenção!</p>',
+                    subTitle: '<p>Não existe nenhum avaliação para esta turma!</p>',
+                    buttons: ['OK']
+                });
+                alerta.present();
+            }
+        });
+    }
+    TblunificadaPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-tblunificada',template:/*ion-inline-start:"C:\apps\4spa\src\pages\tblunificada\tblunificada.html"*/'<!--\nGenerated template for the TblunificadaPage page.\n\nSee http://ionicframework.com/docs/components/#navigation for more info on\nIonic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Tabela Unificada</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n\n\n\n  <ion-list class="aluno-list">\n    <ion-item class="nome-aluno">\n      <strong>{{this.escola}}</strong>\n      <p>{{this.codTurma}}</p>\n    </ion-item>\n  </ion-list>\n\n  <ion-grid>\n    <ion-row>\n      <ion-col class="legenda" col-12>\n        ZRS - Zona de Risco a Saúde<br>\n        ZS - Zona Saudável<br><br>\n      </ion-col>\n    </ion-row>\n\n    <ion-row>\n      <ion-col class="titulo" col-2>NOME</ion-col>\n      <ion-col class="titulo">IMC</ion-col>\n      <ion-col class="titulo">APCR</ion-col>\n      <ion-col class="titulo">FLEX</ion-col>\n      <ion-col class="titulo">RML</ion-col>\n      <ion-col class="titulo">D. Card</ion-col>\n      <ion-col class="titulo">D. Oste</ion-col>\n      \n    </ion-row>\n    <div *ngFor="let item of avaliacoes">\n      <ion-row>\n        <ion-col class="dados" col-2>{{ item.nome_estudante }}</ion-col>\n        <ion-col class="dados">{{ item.imc_status }}</ion-col>\n        <ion-col class="dados">{{ item.aptCardio_status }}</ion-col>\n        <ion-col class="dados">{{ item.flex_status }}</ion-col>\n        <ion-col class="dados">{{ item.resAbd_status }}</ion-col>\n        <ion-col class="dados">{{ item.dCardiometabolica }}</ion-col>\n        <ion-col class="dados">{{ item.dOsteomusculares }}</ion-col>\n        \n      </ion-row>\n    </div>\n\n    <ion-row>\n      <ion-col class="titulo" col-2>Total ZRS</ion-col>\n      <ion-col  class="dados">{{this.totalZRSIMC}}</ion-col>\n      <ion-col  class="dados">{{this.totalZRSaptCardio}}</ion-col>\n      <ion-col  class="dados">{{this.totaZRSFlex}}</ion-col>\n      <ion-col  class="dados">{{this.totaZRSResAB}}</ion-col>\n      <ion-col class="dados">{{this.totalZRSdCardio}}</ion-col>\n      <ion-col class="dados">{{this.totalZRSdOsteo}}</ion-col>\n    </ion-row>\n\n    <ion-row>\n      <ion-col class="titulo" col-2>Total ZS</ion-col>\n      <ion-col  class="dados">{{this.totalAvaliacoes - this.totalZRSIMC}}</ion-col>\n      <ion-col  class="dados">{{this.totalAvaliacoes - this.totalZRSaptCardio}}</ion-col>\n      <ion-col  class="dados">{{this.totalAvaliacoes - this.totaZRSFlex}}</ion-col>\n      <ion-col  class="dados">{{this.totalAvaliacoes - this.totaZRSResAB}}</ion-col>\n      <ion-col class="dados">{{this.totalAvaliacoes - this.totalZRSdCardio}}</ion-col>\n      <ion-col class="dados">{{this.totalAvaliacoes - this.totalZRSdOsteo}}</ion-col>\n    </ion-row>\n\n  </ion-grid>\n\n\n  <ion-fab bottom right >\n    <button ion-fab color="primary"><ion-icon name="options"></ion-icon></button>\n\n    <ion-fab-list side="left">\n      <a href="http://cev.urca.br/treinamento/api/imprimirTabelaUnificada?id_turma={{this.id_turma}}">\n        <button ion-fab color="primary"><ion-icon name="print"></ion-icon></button>\n      </a>\n\n    </ion-fab-list>\n  </ion-fab>\n\n</ion-content>\n'/*ion-inline-end:"C:\apps\4spa\src\pages\tblunificada\tblunificada.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* Platform */],
+            __WEBPACK_IMPORTED_MODULE_6__ionic_native_file__["a" /* File */],
+            __WEBPACK_IMPORTED_MODULE_7__ionic_native_file_opener__["a" /* FileOpener */],
+            __WEBPACK_IMPORTED_MODULE_8__ionic_native_social_sharing__["a" /* SocialSharing */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* ActionSheetController */]])
+    ], TblunificadaPage);
+    return TblunificadaPage;
+}());
+
+//# sourceMappingURL=tblunificada.js.map
+
+/***/ }),
+
+/***/ 189:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GrafcardioPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+/**
+* Generated class for the GrafcardioPage page.
+*
+* See https://ionicframework.com/docs/components/#navigation for more info on
+* Ionic pages and navigation.
+*/
+var GrafcardioPage = /** @class */ (function () {
+    function GrafcardioPage(navCtrl, navParams, HttpCtrl, alertCtrl) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.HttpCtrl = HttpCtrl;
+        this.alertCtrl = alertCtrl;
+        this.barChartOptions = [{
+                scales: {
+                    yAxes: [
+                        {
+                            display: true,
+                            ticks: {
+                                fontSize: 10,
+                                colors: '#fff'
+                            }
+                        }
+                    ]
+                }
+            }];
+        this.barChartLabels = [];
+        this.barChartType = 'pie';
+        this.barChartLegend = true;
+        this.barChartColors = [
+            {
+                backgroundColor: '#3F51B5',
+                borderColor: '#3F51B5',
+                pointBackgroundColor: '#3F51B5',
+                pointBorderColor: '#3F51B5',
+                pointHoverBackgroundColor: '#3F51B5',
+                pointHoverBorderColor: '#3F51B5',
+                labels: '#3F51B5'
+            }
+        ];
+        this.doughnutChartType = 'pie';
+        this.doughnutChartTypeFem = 'pie';
+        this.API_URL = "http://cev.urca.br/treinamento/Api/";
+        this.id_turma = this.navParams.get('id_turma');
+        this.HttpCtrl.get(this.API_URL + 'GrafOsteoMasc?id_turma=' + this.id_turma)
+            .map(function (res) { return res.json(); })
+            .subscribe(function (data) {
+            console.log(data);
+            _this.avaliacoes = data;
+            _this.sexoMasculoZRS = _this.avaliacoes.ZRS;
+            _this.sexoMasculoZS = _this.avaliacoes.ZS;
+            _this.totalMasculino = _this.avaliacoes.totalMasculino;
+            _this.totalMasculinoZS = _this.avaliacoes.totalMasculinoZS;
+            _this.totalMasculinoZRS = _this.avaliacoes.totalMasculinoZRS;
+            _this.sexoFemininoZRS = _this.avaliacoes.ZRSF;
+            _this.sexoFemininoZS = _this.avaliacoes.ZSF;
+            _this.totalFeminino = _this.avaliacoes.totalFeminino;
+            _this.totalFemininoZS = _this.avaliacoes.totalFemininoZS;
+            _this.totalFemininoZRS = _this.avaliacoes.totalFemininoZRS;
+        });
+    }
+    GrafcardioPage.prototype.calc = function (tipo) {
+        if (tipo === 'Feminino') {
+            this.calcBar();
+        }
+        else {
+            this.calcDoughnut();
+        }
+    };
+    GrafcardioPage.prototype.calcBar = function () {
+        this.doughnutChartLabelsFem = [
+            'ZRS ' + this.sexoFemininoZRS + "%",
+            'ZS ' + this.sexoFemininoZS + "%",
+        ];
+        this.doughnutChartDataFem = [this.sexoFemininoZRS, this.sexoFemininoZS];
+    };
+    GrafcardioPage.prototype.calcDoughnut = function () {
+        this.doughnutChartLabels = [
+            'ZRS ' + this.sexoMasculoZRS + "%",
+            'ZS ' + this.sexoMasculoZS + "%",
+        ];
+        this.doughnutChartData = [this.sexoMasculoZRS, this.sexoMasculoZS];
+    };
+    ;
+    GrafcardioPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-grafcardio',template:/*ion-inline-start:"C:\apps\4spa\src\pages\grafcardio\grafcardio.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Gráfico D. Cardiometabólica\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <div padding>\n    <ion-segment [(ngModel)]="segment" (ionChange)="calc(segment)">\n      <ion-segment-button  value="Feminino">\n        Feminino\n      </ion-segment-button>\n      <ion-segment-button value="Masculino">\n        Masculino\n      </ion-segment-button>\n    </ion-segment>\n  </div>\n\n  <div [ngSwitch]="segment" style="segment">\n\n    <ion-list *ngSwitchCase="\'Feminino\'" >\n      <p>Total Avaliações: {{this.totalFeminino}}</p>\n      <p>Total ZRS: {{this.totalFemininoZRS}} - Total ZS: {{this.totalFemininoZS}}</p>\n      <div width="600" height="800">\n        <div style="display: block" >\n          <canvas baseChart\n          [data]="doughnutChartDataFem"\n          [labels]="doughnutChartLabelsFem"\n          [chartType]="doughnutChartTypeFem"></canvas>\n        </div>\n      </div>\n    </ion-list>\n\n    <ion-list *ngSwitchCase="\'Masculino\'">\n      <p>Total Avaliações: {{this.totalMasculino}}</p>\n      <p>Total ZRS: {{this.totalMasculinoZRS}} - Total ZS: {{this.totalMasculinoZS}}</p>\n\n      <div width="600" height="800">\n\n        <div style="display: block" >\n          <canvas baseChart\n          [data]="doughnutChartData"\n          [labels]="doughnutChartLabels"\n          [chartType]="doughnutChartType"></canvas>\n        </div>\n      </div>\n    </ion-list>\n  </div>\n</ion-content>\n'/*ion-inline-end:"C:\apps\4spa\src\pages\grafcardio\grafcardio.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
+    ], GrafcardioPage);
+    return GrafcardioPage;
+}());
+
+//# sourceMappingURL=grafcardio.js.map
+
+/***/ }),
+
+/***/ 190:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GrafosteoPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+/**
+ * Generated class for the GrafosteoPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var GrafosteoPage = /** @class */ (function () {
+    function GrafosteoPage(navCtrl, navParams, HttpCtrl, alertCtrl) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.HttpCtrl = HttpCtrl;
+        this.alertCtrl = alertCtrl;
+        this.barChartOptions = [{
+                scales: {
+                    yAxes: [
+                        {
+                            display: true,
+                            ticks: {
+                                fontSize: 10,
+                                colors: '#fff'
+                            }
+                        }
+                    ]
+                }
+            }];
+        this.barChartLabels = [];
+        this.barChartType = 'pie';
+        this.barChartLegend = true;
+        this.barChartColors = [
+            {
+                backgroundColor: '#3F51B5',
+                borderColor: '#3F51B5',
+                pointBackgroundColor: '#3F51B5',
+                pointBorderColor: '#3F51B5',
+                pointHoverBackgroundColor: '#3F51B5',
+                pointHoverBorderColor: '#3F51B5',
+                labels: '#3F51B5'
+            }
+        ];
+        this.doughnutChartType = 'pie';
+        this.doughnutChartTypeFem = 'pie';
+        this.API_URL = "http://cev.urca.br/treinamento/Api/";
+        this.id_turma = this.navParams.get('id_turma');
+        this.HttpCtrl.get(this.API_URL + 'GrafCardioMasc?id_turma=' + this.id_turma)
+            .map(function (res) { return res.json(); })
+            .subscribe(function (data) {
+            console.log(data);
+            _this.avaliacoes = data;
+            _this.sexoMasculoZRS = _this.avaliacoes.ZRS;
+            _this.sexoMasculoZS = _this.avaliacoes.ZS;
+            _this.totalMasculino = _this.avaliacoes.totalMasculino;
+            _this.totalMasculinoZS = _this.avaliacoes.totalMasculinoZS;
+            _this.totalMasculinoZRS = _this.avaliacoes.totalMasculinoZRS;
+            _this.sexoFemininoZRS = _this.avaliacoes.ZRSF;
+            _this.sexoFemininoZS = _this.avaliacoes.ZSF;
+            _this.totalFeminino = _this.avaliacoes.totalFeminino;
+            _this.totalFemininoZS = _this.avaliacoes.totalFemininoZS;
+            _this.totalFemininoZRS = _this.avaliacoes.totalFemininoZRS;
+        });
+    }
+    GrafosteoPage.prototype.calc = function (tipo) {
+        if (tipo === 'Feminino') {
+            this.calcBar();
+        }
+        else {
+            this.calcDoughnut();
+        }
+    };
+    GrafosteoPage.prototype.calcBar = function () {
+        this.doughnutChartLabelsFem = [
+            'ZRS ' + this.sexoFemininoZRS + "%",
+            'ZS ' + this.sexoFemininoZS + "%",
+        ];
+        this.doughnutChartDataFem = [this.sexoFemininoZRS, this.sexoFemininoZS];
+    };
+    GrafosteoPage.prototype.calcDoughnut = function () {
+        this.doughnutChartLabels = [
+            'ZRS ' + this.sexoMasculoZRS + "%",
+            'ZS ' + this.sexoMasculoZS + "%",
+        ];
+        this.doughnutChartData = [this.sexoMasculoZRS, this.sexoMasculoZS];
+    };
+    ;
+    GrafosteoPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-grafosteo',template:/*ion-inline-start:"C:\apps\4spa\src\pages\grafosteo\grafosteo.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Gráfico D. Osteomusculáres\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <div padding>\n    <ion-segment [(ngModel)]="segment" (ionChange)="calc(segment)">\n      <ion-segment-button  value="Feminino">\n        Feminino\n      </ion-segment-button>\n      <ion-segment-button value="Masculino">\n        Masculino\n      </ion-segment-button>\n    </ion-segment>\n  </div>\n\n  <div [ngSwitch]="segment" style="segment">\n\n    <ion-list *ngSwitchCase="\'Feminino\'" >\n      <p>Total Avaliações: {{this.totalFeminino}}</p>\n      <p>Total ZRS: {{this.totalFemininoZRS}} - Total ZS: {{this.totalFemininoZS}}</p>\n      <div width="600" height="800">\n        <div style="display: block" >\n          <canvas baseChart\n          [data]="doughnutChartDataFem"\n          [labels]="doughnutChartLabelsFem"\n          [chartType]="doughnutChartTypeFem"></canvas>\n        </div>\n      </div>\n    </ion-list>\n\n    <ion-list *ngSwitchCase="\'Masculino\'">\n      <p>Total Avaliações: {{this.totalMasculino}}</p>\n      <p>Total ZRS: {{this.totalMasculinoZRS}} - Total ZS: {{this.totalMasculinoZS}}</p>\n\n      <div width="600" height="800">\n\n        <div style="display: block" >\n          <canvas baseChart\n          [data]="doughnutChartData"\n          [labels]="doughnutChartLabels"\n          [chartType]="doughnutChartType"></canvas>\n        </div>\n      </div>\n    </ion-list>\n  </div>\n</ion-content>\n'/*ion-inline-end:"C:\apps\4spa\src\pages\grafosteo\grafosteo.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
+    ], GrafosteoPage);
+    return GrafosteoPage;
+}());
+
+//# sourceMappingURL=grafosteo.js.map
+
+/***/ }),
+
+/***/ 191:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GrafgeralPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+/**
+ * Generated class for the GrafgeralPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var GrafgeralPage = /** @class */ (function () {
+    function GrafgeralPage(navCtrl, navParams, HttpCtrl, alertCtrl) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.HttpCtrl = HttpCtrl;
+        this.alertCtrl = alertCtrl;
+        this.barChartOptions = [{
+                scales: {
+                    yAxes: [
+                        {
+                            display: true,
+                            ticks: {
+                                fontSize: 10,
+                                colors: '#fff'
+                            }
+                        }
+                    ]
+                }
+            }];
+        this.barChartLabels = [];
+        this.barChartType = 'pie';
+        this.barChartLegend = true;
+        this.barChartColors = [
+            {
+                backgroundColor: '#3F51B5',
+                borderColor: '#3F51B5',
+                pointBackgroundColor: '#3F51B5',
+                pointBorderColor: '#3F51B5',
+                pointHoverBackgroundColor: '#3F51B5',
+                pointHoverBorderColor: '#3F51B5',
+                labels: '#3F51B5'
+            }
+        ];
+        this.doughnutChartType = 'pie';
+        this.doughnutChartTypeFem = 'pie';
+        this.API_URL = "http://cev.urca.br/treinamento/Api/";
+        this.id_turma = this.navParams.get('id_turma');
+        this.HttpCtrl.get(this.API_URL + 'GrafGeralCardio?id_turma=' + this.id_turma)
+            .map(function (res) { return res.json(); })
+            .subscribe(function (data) {
+            console.log(data);
+            _this.avaliacoes = data;
+            _this.totalAvaliacoes = _this.avaliacoes.totalAvaliacoes;
+            _this.ZRSCardio = _this.avaliacoes.ZRSCardio;
+            _this.ZRSOsteo = _this.avaliacoes.ZRSOsteo;
+            _this.totalZRSdCardio = _this.avaliacoes.totalZRSdCardio;
+            _this.totalZRSdOsteo = _this.avaliacoes.totalZRSdOsteo;
+            _this.ZSOsteo = _this.avaliacoes.ZSOsteo;
+            _this.ZSCardio = _this.avaliacoes.ZSCardio;
+        });
+    }
+    GrafgeralPage.prototype.calc = function (tipo) {
+        if (tipo === 'cardiometabolica') {
+            this.calcBar();
+        }
+        else {
+            this.calcDoughnut();
+        }
+    };
+    GrafgeralPage.prototype.calcBar = function () {
+        this.doughnutChartLabelsFem = [
+            'ZRS ' + this.ZRSCardio + "%",
+            'ZS ' + this.ZSCardio + "%",
+        ];
+        this.doughnutChartDataFem = [this.ZRSCardio, this.ZSCardio];
+    };
+    GrafgeralPage.prototype.calcDoughnut = function () {
+        this.doughnutChartLabels = [
+            'ZRS ' + this.ZRSOsteo + "%",
+            'ZS ' + this.ZSOsteo + "%",
+        ];
+        this.doughnutChartData = [this.ZRSOsteo, this.ZSOsteo];
+    };
+    ;
+    GrafgeralPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-grafgeral',template:/*ion-inline-start:"C:\apps\4spa\src\pages\grafgeral\grafgeral.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Gráfico Geral\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <div padding>\n    <ion-segment [(ngModel)]="segment" (ionChange)="calc(segment)">\n      <ion-segment-button  value="cardiometabolica">\n        Cardiometabólica\n      </ion-segment-button>\n      <ion-segment-button value="Masculino">\n        Osteomusculáres\n      </ion-segment-button>\n    </ion-segment>\n  </div>\n\n  <div [ngSwitch]="segment" style="segment">\n\n    <ion-list *ngSwitchCase="\'cardiometabolica\'" >\n      <p>Total Avaliações: {{this.totalAvaliacoes}}</p>\n      <p>Total ZRS: {{this.totalZRSdCardio}} - Total ZS: {{this.totalAvaliacoes - this.totalZRSdCardio}}</p>\n      <div width="600" height="800">\n        <div style="display: block" >\n          <canvas baseChart\n          [data]="doughnutChartDataFem"\n          [labels]="doughnutChartLabelsFem"\n          [chartType]="doughnutChartTypeFem"></canvas>\n        </div>\n      </div>\n    </ion-list>\n\n    <ion-list *ngSwitchCase="\'Masculino\'">\n      <p>Total Avaliações: {{this.totalAvaliacoes}}</p>\n      <p>Total ZRS: {{this.totalZRSdOsteo}} - Total ZS: {{this.totalAvaliacoes - totalZRSdOsteo}}</p>\n\n      <div width="600" height="800">\n\n        <div style="display: block" >\n          <canvas baseChart\n          [data]="doughnutChartData"\n          [labels]="doughnutChartLabels"\n          [chartType]="doughnutChartType"></canvas>\n        </div>\n      </div>\n    </ion-list>\n  </div>\n</ion-content>\n'/*ion-inline-end:"C:\apps\4spa\src\pages\grafgeral\grafgeral.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
+    ], GrafgeralPage);
+    return GrafgeralPage;
+}());
+
+//# sourceMappingURL=grafgeral.js.map
+
+/***/ }),
+
 /***/ 192:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2435,7 +2435,7 @@ var EditEscolaPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CadastroPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(151);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(152);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs__);
@@ -2539,19 +2539,19 @@ webpackEmptyAsyncContext.id = 203;
 
 var map = {
 	"../pages/about/about.module": [
-		916,
+		914,
 		25
 	],
 	"../pages/add-aluno/add-aluno.module": [
-		914,
+		915,
 		24
 	],
 	"../pages/add-escola/add-escola.module": [
-		917,
+		916,
 		23
 	],
 	"../pages/add-turma/add-turma.module": [
-		915,
+		917,
 		22
 	],
 	"../pages/avaliacoes/avaliacoes.module": [
@@ -2579,27 +2579,27 @@ var map = {
 		16
 	],
 	"../pages/edit-turma/edit-turma.module": [
-		926,
+		923,
 		15
 	],
 	"../pages/escola-inicio/escola-inicio.module": [
-		929,
+		924,
 		14
 	],
 	"../pages/grafcardio/grafcardio.module": [
-		923,
+		925,
 		13
 	],
 	"../pages/grafgeral/grafgeral.module": [
-		924,
+		926,
 		12
 	],
 	"../pages/grafosteo/grafosteo.module": [
-		925,
+		927,
 		11
 	],
 	"../pages/inicio/inicio.module": [
-		930,
+		928,
 		10
 	],
 	"../pages/lista-avaliacoes/lista-avaliacoes.module": [
@@ -2607,35 +2607,35 @@ var map = {
 		9
 	],
 	"../pages/listar-alunos/listar-alunos.module": [
-		931,
+		929,
 		8
 	],
 	"../pages/manual/manual.module": [
-		927,
+		930,
 		7
 	],
 	"../pages/relatorio-turmas/relatorio-turmas.module": [
-		928,
+		931,
 		6
 	],
 	"../pages/tblunificada/tblunificada.module": [
-		934,
+		932,
 		5
 	],
 	"../pages/tblzonarisco/tblzonarisco.module": [
-		932,
+		933,
 		4
 	],
 	"../pages/turmas-details/turmas-details.module": [
-		933,
+		934,
 		3
 	],
 	"../pages/turmas/turmas.module": [
-		935,
+		936,
 		2
 	],
 	"../pages/valores-afrs/valores-afrs.module": [
-		936,
+		935,
 		1
 	]
 };
@@ -2730,33 +2730,33 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(850);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_http__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_home_home__ = __webpack_require__(151);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_home_home__ = __webpack_require__(152);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_list_list__ = __webpack_require__(851);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_inicio_inicio__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_inicio_inicio__ = __webpack_require__(106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_escola_inicio_escola_inicio__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_add_escola_add_escola__ = __webpack_require__(190);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_edit_escola_edit_escola__ = __webpack_require__(191);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_turmas_turmas__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_add_escola_add_escola__ = __webpack_require__(180);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_edit_escola_edit_escola__ = __webpack_require__(181);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_turmas_turmas__ = __webpack_require__(107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_turmas_details_turmas_details__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_add_turma_add_turma__ = __webpack_require__(179);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_edit_turma_edit_turma__ = __webpack_require__(180);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_add_turma_add_turma__ = __webpack_require__(182);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_edit_turma_edit_turma__ = __webpack_require__(183);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_listar_alunos_listar_alunos__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_add_aluno_add_aluno__ = __webpack_require__(174);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_edit_aluno_edit_aluno__ = __webpack_require__(175);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_avaliacoes_avaliacoes__ = __webpack_require__(177);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_add_aluno_add_aluno__ = __webpack_require__(175);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_edit_aluno_edit_aluno__ = __webpack_require__(176);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_avaliacoes_avaliacoes__ = __webpack_require__(178);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_lista_avaliacoes_lista_avaliacoes__ = __webpack_require__(76);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_edit_avaliacao_edit_avaliacao__ = __webpack_require__(178);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_relatorio_turmas_relatorio_turmas__ = __webpack_require__(181);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_valores_afrs_valores_afrs__ = __webpack_require__(182);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_componentesafrs_componentesafrs__ = __webpack_require__(183);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_tblzonarisco_tblzonarisco__ = __webpack_require__(184);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_tblunificada_tblunificada__ = __webpack_require__(185);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_grafcardio_grafcardio__ = __webpack_require__(186);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__pages_grafosteo_grafosteo__ = __webpack_require__(187);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_edit_avaliacao_edit_avaliacao__ = __webpack_require__(179);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_relatorio_turmas_relatorio_turmas__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_valores_afrs_valores_afrs__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_componentesafrs_componentesafrs__ = __webpack_require__(186);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_tblzonarisco_tblzonarisco__ = __webpack_require__(187);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_tblunificada_tblunificada__ = __webpack_require__(188);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_grafcardio_grafcardio__ = __webpack_require__(189);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__pages_grafosteo_grafosteo__ = __webpack_require__(190);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_manual_manual__ = __webpack_require__(519);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__pages_pdf_viewer_pdf_viewer__ = __webpack_require__(852);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pages_grafgeral_grafgeral__ = __webpack_require__(188);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pages_about_about__ = __webpack_require__(189);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pages_grafgeral_grafgeral__ = __webpack_require__(191);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pages_about_about__ = __webpack_require__(105);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pages_cadastro_cadastro__ = __webpack_require__(192);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__ionic_native_status_bar__ = __webpack_require__(383);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__ionic_native_splash_screen__ = __webpack_require__(384);
@@ -2768,8 +2768,8 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_39_ng2_pdf_viewer__ = __webpack_require__(899);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__ionic_native_in_app_browser__ = __webpack_require__(99);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__ionic_native_file_opener__ = __webpack_require__(98);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__ionic_storage__ = __webpack_require__(152);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__ionic_native_social_sharing__ = __webpack_require__(150);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__ionic_storage__ = __webpack_require__(153);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__ionic_native_social_sharing__ = __webpack_require__(151);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2862,29 +2862,29 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["e" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
                     links: [
-                        { loadChildren: '../pages/add-aluno/add-aluno.module#AddAlunoPageModule', name: 'AddAlunoPage', segment: 'add-aluno', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/add-turma/add-turma.module#AddTurmaPageModule', name: 'AddTurmaPage', segment: 'add-turma', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/about/about.module#AboutPageModule', name: 'AboutPage', segment: 'about', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/add-aluno/add-aluno.module#AddAlunoPageModule', name: 'AddAlunoPage', segment: 'add-aluno', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/add-escola/add-escola.module#AddEscolaPageModule', name: 'AddEscolaPage', segment: 'add-escola', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/add-turma/add-turma.module#AddTurmaPageModule', name: 'AddTurmaPage', segment: 'add-turma', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/avaliacoes/avaliacoes.module#AvaliacoesPageModule', name: 'AvaliacoesPage', segment: 'avaliacoes', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/cadastro/cadastro.module#CadastroPageModule', name: 'CadastroPage', segment: 'cadastro', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/componentesafrs/componentesafrs.module#ComponentesafrsPageModule', name: 'ComponentesafrsPage', segment: 'componentesafrs', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/edit-aluno/edit-aluno.module#EditAlunoPageModule', name: 'EditAlunoPage', segment: 'edit-aluno', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/edit-escola/edit-escola.module#EditEscolaPageModule', name: 'EditEscolaPage', segment: 'edit-escola', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/edit-turma/edit-turma.module#EditTurmaPageModule', name: 'EditTurmaPage', segment: 'edit-turma', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/escola-inicio/escola-inicio.module#EscolaInicioPageModule', name: 'EscolaInicioPage', segment: 'escola-inicio', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/grafcardio/grafcardio.module#GrafcardioPageModule', name: 'GrafcardioPage', segment: 'grafcardio', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/grafgeral/grafgeral.module#GrafgeralPageModule', name: 'GrafgeralPage', segment: 'grafgeral', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/grafosteo/grafosteo.module#GrafosteoPageModule', name: 'GrafosteoPage', segment: 'grafosteo', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/edit-turma/edit-turma.module#EditTurmaPageModule', name: 'EditTurmaPage', segment: 'edit-turma', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/manual/manual.module#ManualPageModule', name: 'ManualPage', segment: 'manual', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/relatorio-turmas/relatorio-turmas.module#RelatorioTurmasPageModule', name: 'RelatorioTurmasPage', segment: 'relatorio-turmas', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/escola-inicio/escola-inicio.module#EscolaInicioPageModule', name: 'EscolaInicioPage', segment: 'escola-inicio', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/inicio/inicio.module#InicioPageModule', name: 'InicioPage', segment: 'inicio', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/listar-alunos/listar-alunos.module#ListarAlunosPageModule', name: 'ListarAlunosPage', segment: 'listar-alunos', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/manual/manual.module#ManualPageModule', name: 'ManualPage', segment: 'manual', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/relatorio-turmas/relatorio-turmas.module#RelatorioTurmasPageModule', name: 'RelatorioTurmasPage', segment: 'relatorio-turmas', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/tblunificada/tblunificada.module#TblunificadaPageModule', name: 'TblunificadaPage', segment: 'tblunificada', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/tblzonarisco/tblzonarisco.module#TblzonariscoPageModule', name: 'TblzonariscoPage', segment: 'tblzonarisco', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/turmas-details/turmas-details.module#TurmasDetailsPageModule', name: 'TurmasDetailsPage', segment: 'turmas-details', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/tblunificada/tblunificada.module#TblunificadaPageModule', name: 'TblunificadaPage', segment: 'tblunificada', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/turmas/turmas.module#TurmasPageModule', name: 'TurmasPage', segment: 'turmas', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/valores-afrs/valores-afrs.module#ValoresAfrsPageModule', name: 'ValoresAfrsPage', segment: 'valores-afrs', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/turmas/turmas.module#TurmasPageModule', name: 'TurmasPage', segment: 'turmas', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/edit-avaliacao/edit-avaliacao.module#EditAvaliacaoPageModule', name: 'EditAvaliacaoPage', segment: 'edit-avaliacao', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/lista-avaliacoes/lista-avaliacoes.module#ListaAvaliacoesPageModule', name: 'ListaAvaliacoesPage', segment: 'lista-avaliacoes', priority: 'low', defaultHistory: [] }
                     ]
@@ -2956,8 +2956,8 @@ var AppModule = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListarAlunosPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__add_aluno_add_aluno__ = __webpack_require__(174);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__edit_aluno_edit_aluno__ = __webpack_require__(175);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__add_aluno_add_aluno__ = __webpack_require__(175);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__edit_aluno_edit_aluno__ = __webpack_require__(176);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__lista_avaliacoes_lista_avaliacoes__ = __webpack_require__(76);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_http__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs__ = __webpack_require__(17);
@@ -3081,10 +3081,10 @@ var ListarAlunosPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TurmasDetailsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__add_turma_add_turma__ = __webpack_require__(179);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__edit_turma_edit_turma__ = __webpack_require__(180);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__add_turma_add_turma__ = __webpack_require__(182);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__edit_turma_edit_turma__ = __webpack_require__(183);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__listar_alunos_listar_alunos__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__relatorio_turmas_relatorio_turmas__ = __webpack_require__(181);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__relatorio_turmas_relatorio_turmas__ = __webpack_require__(184);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_http__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs__);
@@ -3211,19 +3211,19 @@ var TurmasDetailsPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListaAvaliacoesPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__avaliacoes_avaliacoes__ = __webpack_require__(177);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__edit_avaliacao_edit_avaliacao__ = __webpack_require__(178);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__avaliacoes_avaliacoes__ = __webpack_require__(178);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__edit_avaliacao_edit_avaliacao__ = __webpack_require__(179);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__listar_alunos_listar_alunos__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_http__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_pdfmake_build_pdfmake__ = __webpack_require__(147);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_pdfmake_build_pdfmake__ = __webpack_require__(148);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_pdfmake_build_pdfmake___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_pdfmake_build_pdfmake__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_pdfmake_build_vfs_fonts__ = __webpack_require__(148);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_pdfmake_build_vfs_fonts__ = __webpack_require__(149);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_pdfmake_build_vfs_fonts___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_pdfmake_build_vfs_fonts__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_file__ = __webpack_require__(97);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_file_opener__ = __webpack_require__(98);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_social_sharing__ = __webpack_require__(150);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_social_sharing__ = __webpack_require__(151);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3545,8 +3545,8 @@ var ListaAvaliacoesPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EscolaInicioPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__add_escola_add_escola__ = __webpack_require__(190);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__edit_escola_edit_escola__ = __webpack_require__(191);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__add_escola_add_escola__ = __webpack_require__(180);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__edit_escola_edit_escola__ = __webpack_require__(181);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__turmas_details_turmas_details__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_http__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs__ = __webpack_require__(17);
@@ -3682,8 +3682,9 @@ var EscolaInicioPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(383);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(384);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(151);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_inicio_inicio__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(152);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_inicio_inicio__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_about_about__ = __webpack_require__(105);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3693,6 +3694,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 
@@ -3709,6 +3711,7 @@ var MyApp = /** @class */ (function () {
         // used for an example of ngFor and navigation
         this.pages = [
             { title: 'Inicio', component: __WEBPACK_IMPORTED_MODULE_5__pages_inicio_inicio__["a" /* InicioPage */] },
+            { title: 'Sobre', component: __WEBPACK_IMPORTED_MODULE_6__pages_about_about__["a" /* AboutPage */] },
         ];
     }
     MyApp.prototype.initializeApp = function () {

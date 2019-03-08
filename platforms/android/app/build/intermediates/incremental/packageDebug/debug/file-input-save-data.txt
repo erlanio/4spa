@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Feb 24 17:31:40 BRT 2019
+#Thu Mar 07 20:36:40 BRT 2019
 122.file=C\:\\apps\\4spa\\platforms\\android\\app\\build\\intermediates\\assets\\debug\\www\\cordova_plugins.js
 60.set=ANDROID_RESOURCE
 129.file=C\:\\apps\\4spa\\platforms\\android\\app\\build\\intermediates\\assets\\debug\\www\\build\\15.js

@@ -13,7 +13,7 @@ INJECTED from C:\apps\4spa\platforms\android\app\src\main\AndroidManifest.xml:2:
 		INJECTED from C:\apps\4spa\platforms\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\apps\4spa\platforms\android\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\apps\4spa\platforms\android\app\src\main\AndroidManifest.xml:2:72-99
+		ADDED from C:\apps\4spa\platforms\android\app\src\main\AndroidManifest.xml:2:74-99
 		INJECTED from C:\apps\4spa\platforms\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\apps\4spa\platforms\android\app\src\main\AndroidManifest.xml
 	android:hardwareAccelerated
@@ -21,7 +21,7 @@ INJECTED from C:\apps\4spa\platforms\android\app\src\main\AndroidManifest.xml:2:
 	xmlns:android
 		ADDED from C:\apps\4spa\platforms\android\app\src\main\AndroidManifest.xml:2:126-184
 	android:versionCode
-		ADDED from C:\apps\4spa\platforms\android\app\src\main\AndroidManifest.xml:2:46-71
+		ADDED from C:\apps\4spa\platforms\android\app\src\main\AndroidManifest.xml:2:46-73
 		INJECTED from C:\apps\4spa\platforms\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\apps\4spa\platforms\android\app\src\main\AndroidManifest.xml
 supports-screens
